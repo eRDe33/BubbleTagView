@@ -61,9 +61,7 @@ class BubbleTagViewCell: UICollectionViewCell {
     
     var notSelectedBorderColor : UIColor? {
         didSet(color) {
-            
             setBorders(selected)
-          
         }
     }
     
@@ -97,8 +95,12 @@ class BubbleTagViewCell: UICollectionViewCell {
     var selectedBorderColor : UIColor? {
         willSet(color) {
            setBorders(selected)
-         
-            
+        }
+    }
+    
+    var cornerRadius : CGFloat = 0 {
+        willSet(radius) {
+            self.layer.cornerRadius = radius
         }
     }
     
@@ -123,26 +125,19 @@ class BubbleTagViewCell: UICollectionViewCell {
     }
     
     private func setBorders(selected : Bool ) {
-        
-        
         if (selected) {
-            
             if let color = selectedBorderColor?.CGColor {
-               addBordersWithColor(color)
+                addBordersWithColor(color)
             } else {
                 removeBorders()
             }
         } else {
-            
-            
             if let color = notSelectedBorderColor?.CGColor {
                 addBordersWithColor(color)
             } else {
                 removeBorders()
             }
-            
         }
-        
     }
     
     private func addBordersWithColor(color : CGColor) {
@@ -191,9 +186,6 @@ class BubbleTagViewCell: UICollectionViewCell {
         
         tagLabel.textAlignment = .Center
         
-        
-        
-
         self.tagLabel.contentMode = UIViewContentMode.Center
     }
     
@@ -206,18 +198,38 @@ class BubbleTagViewCell: UICollectionViewCell {
     }
     
     func updateContstraints ()  {
-    
-        
         tagLabel.snp_remakeConstraints(closure: { make -> Void in
             make.edges.equalTo(contentView).inset(insets)
         })
-        
-        
-   
-        
-        
-        
+    }
     
+    func configurateCell(cellConfiguration: BubbleTagViewCellConfiguration) {
+        self.notSelectedFont = cellConfiguration.font
+        self.notSelectedColor = cellConfiguration.cellColor
+        self.notSelectedFontColor = cellConfiguration.fontColor
+        
+        if let selectedFont = cellConfiguration.selectedFont {
+            self.selectedFont = selectedFont
+        }
+        
+        if let color = cellConfiguration.selectedCellColor {
+            self.selectedColor = color
+        }
+        
+        if let color = cellConfiguration.selectedFontColor {
+            self.selectedFontColor = color
+        }
+        
+        self.notSelectedBorderColor = cellConfiguration.cellBorderColor
+        self.selectedBorderColor = cellConfiguration.selectedCellBorderColor
+        
+        if let insets = cellConfiguration.insets {
+            self.insets = insets
+        }
+        
+        if let cornerRadius = cellConfiguration.cornerRadius {
+            self.cornerRadius = cornerRadius
+        }
 
     }
 

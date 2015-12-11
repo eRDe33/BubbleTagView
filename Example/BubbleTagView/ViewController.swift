@@ -12,7 +12,6 @@ import BubbleTagView
 class ViewController: UIViewController, BubbleTagViewDelegate {
 
     @IBOutlet weak var bubbleTagView: BubbleTagView! 
-   
         
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,15 +26,17 @@ class ViewController: UIViewController, BubbleTagViewDelegate {
 
         bubbleTagView.allowsMultipleSelection = true
         
-        
-        
         bubbleTagView.setTags(items)        
 
-        bubbleTagView.insets = UIEdgeInsetsMake(8,12, 8, 12)
+        bubbleTagView.insets = UIEdgeInsetsMake(20,20,20,20)
         
     
     }
     
+    @IBAction func useCustomizedCells(sender: AnyObject) {
+        let cellConfiguration = BubbleTagViewCellConfiguration(cellColor: UIColor.lightGrayColor(), font: UIFont.systemFontOfSize(10), fontColor: UIColor.darkGrayColor(), cornerRadius: 2, insets: UIEdgeInsetsMake(0, 5, 0, 5))
+        self.bubbleTagView.cellConfiguration = cellConfiguration
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

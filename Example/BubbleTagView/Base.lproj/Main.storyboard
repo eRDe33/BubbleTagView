@@ -17,16 +17,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SZz-kC-eLX" customClass="BubbleTagView" customModule="BubbleTagView">
-                                <rect key="frame" x="90" y="73" width="420" height="32"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SZz-kC-eLX" customClass="BubbleTagView" customModule="BubbleTagView">
+                                <rect key="frame" x="90" y="73" width="420" height="41"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Rk-9H-A1n">
+                                <rect key="frame" x="211" y="540" width="179" height="30"/>
+                                <animations/>
+                                <state key="normal" title="USE CUSTOMIZED CELLS"/>
+                                <connections>
+                                    <action selector="useCustomizedCells:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="wLp-fA-CX5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="7Rk-9H-A1n" secondAttribute="bottom" constant="30" id="DiK-jx-oQ5"/>
                             <constraint firstItem="SZz-kC-eLX" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="53" id="ZPs-ho-Ig9"/>
+                            <constraint firstItem="7Rk-9H-A1n" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="ckd-cL-G4i"/>
                             <constraint firstAttribute="trailing" secondItem="SZz-kC-eLX" secondAttribute="trailing" constant="90" id="kJq-ek-SgW"/>
                             <constraint firstItem="SZz-kC-eLX" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="90" id="lfz-Xe-jkK"/>
                         </constraints>

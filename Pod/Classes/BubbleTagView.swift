@@ -31,7 +31,16 @@ extension BubbleTagViewDelegate {
 
 @IBDesignable public class BubbleTagView: UICollectionView, UICollectionViewDelegate, UICollectionViewDataSource {
 
-
+    public var cellConfiguration: BubbleTagViewCellConfiguration? {
+        willSet(cellConfiguration) {
+            if let newInsets = cellConfiguration?.insets {
+                self.sizingCell.insets = newInsets
+            }
+            
+            self.reloadData()
+        }
+    }
+    
     public var bubbleDelegate : BubbleTagViewDelegate?
     var items:[String] =  []
     var hAlignment:FSQCollectionViewHorizontalAlignment = FSQCollectionViewHorizontalAlignment.Center
@@ -66,26 +75,18 @@ extension BubbleTagViewDelegate {
     override init(frame: CGRect, collectionViewLayout layout: UICollectionViewLayout) {
         super.init(frame: frame, collectionViewLayout: FSQCollectionViewAlignedLayout())
         self.customInit()
-        
     }
     
     func customInit() {
-        self.sizingCell = BubbleTagViewCell(frame: CGRectMake(0, 0, 100, 25))
-        self.backgroundColor = UIColor.whiteColor()
-        var frame = self.bounds
-        frame.size.height = CGFloat(25)
-        
-        
+        self.sizingCell = BubbleTagViewCell(frame: CGRectMake(0, 0, 100, 50))
         self.registerClass(BubbleTagViewCell.self, forCellWithReuseIdentifier: "TagCell")
-        
         self.dataSource = self
         self.delegate = self
-        
         self.backgroundColor = UIColor.clearColor()
     }
-    
+
     // MARK: - Designable
-    
+
     public override func prepareForInterfaceBuilder() {
         self.setTags(["hashtag1", "hashtag2", "hashtag3"])
     }
@@ -95,7 +96,7 @@ extension BubbleTagViewDelegate {
         
         self.items = []
         for tag in tags where tag != ""{
-                self.items.append("#\(tag)")
+                self.items.append(tag)
         }
         
         CATransaction.begin()
@@ -123,10 +124,7 @@ extension BubbleTagViewDelegate {
             hAlignment = FSQCollectionViewHorizontalAlignment.Center
         }
         self.reloadData()
-        
-        
     }
-    
     
     public func setFontForCel(font: UIFont) {
         self.font = font
@@ -139,7 +137,6 @@ extension BubbleTagViewDelegate {
         let size = self.sizingCell.contentView.systemLayoutSizeFittingSize(UILayoutFittingCompressedSize)
         let maximumWidth = CGRectGetWidth(collectionView.bounds)
 
-        
         return CGSizeMake(min(size.width, maximumWidth),  size.height)
     }
     
@@ -175,42 +172,41 @@ extension BubbleTagViewDelegate {
         }
     }
     
-    
     // MARK: -UICollectionViewDelegate and datasource
     
     public func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("TagCell", forIndexPath: indexPath) as! BubbleTagViewCell
        
-        
-    
-        
-        cell.notSelectedFont = font
-        
-        if let selectedFont = selectedFont {
-            cell.selectedFont = selectedFont
-        }
-        
-        cell.notSelectedColor = cellColor
-        
-        if let color = selectedCellColor {
-            cell.selectedColor = color
-        }
-        
-        cell.notSelectedFontColor = fontColor
-        
-        if let color = selectedFontColor {
-            cell.selectedFontColor = color
-        }
-        
-        cell.notSelectedBorderColor = cellBorderColor
-        cell.selectedBorderColor = selectedCellBorderColor
-        
-        if let insets = insets {
-            cell.insets = insets
+        if let cellConfiguration = self.cellConfiguration {
+            cell.configurateCell(cellConfiguration)
+        } else {
+            cell.notSelectedFont = font
+            
+            if let selectedFont = selectedFont {
+                cell.selectedFont = selectedFont
+            }
+            
+            cell.notSelectedColor = cellColor
+            
+            if let color = selectedCellColor {
+                cell.selectedColor = color
+            }
+            
+            cell.notSelectedFontColor = fontColor
+            
+            if let color = selectedFontColor {
+                cell.selectedFontColor = color
+            }
+            
+            cell.notSelectedBorderColor = cellBorderColor
+            cell.selectedBorderColor = selectedCellBorderColor
+            
+            if let insets = insets {
+                cell.insets = insets
+            }
         }
         
         cell.tagLabel.text = self.items[indexPath.row]
-
 
         return cell
     }
@@ -232,9 +228,7 @@ extension BubbleTagViewDelegate {
     }
     
     public func collectionView(collectionView: UICollectionView, didDeselectItemAtIndexPath indexPath: NSIndexPath) {
-        
-                bubbleDelegate?.bubbleTagView(self, didDeselectTagAtIndexPath: indexPath)
-        
+        bubbleDelegate?.bubbleTagView(self, didDeselectTagAtIndexPath: indexPath)
     }
     
     
