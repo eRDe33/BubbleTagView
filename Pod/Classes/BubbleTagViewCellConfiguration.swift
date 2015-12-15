@@ -17,11 +17,11 @@ public class BubbleTagViewCellConfiguration {
     public var selectedFontColor: UIColor?
     public var selectedCellColor: UIColor?
     
-    public var cellBorderColor: UIColor?
-    public var selectedCellBorderColor: UIColor?
+    public var borderColor: UIColor?
+    public var selectedBorderColor: UIColor?
     
     public var cornerRadius: CGFloat?
-    public var insets: UIEdgeInsets?
+    public var insets: UIEdgeInsets = UIEdgeInsetsMake(0, 5, 0, 5)
     
     public init(cellColor: UIColor, font: UIFont, fontColor: UIColor) {
         self.cellColor = cellColor
@@ -29,11 +29,24 @@ public class BubbleTagViewCellConfiguration {
         self.fontColor = fontColor
     }
     
-    public init(cellColor: UIColor, font: UIFont, fontColor: UIColor, cornerRadius: CGFloat?, insets: UIEdgeInsets?) {
+    public init(cellColor: UIColor, font: UIFont, fontColor: UIColor, insets: UIEdgeInsets, cornerRadius: CGFloat?) {
         self.cellColor = cellColor
         self.font = font
         self.fontColor = fontColor
-        self.cornerRadius = cornerRadius
         self.insets = insets
+        self.cornerRadius = cornerRadius
+    }
+    
+    public init(cellColor: UIColor, font: UIFont, fontColor: UIColor, insets: UIEdgeInsets, cornerRadius: CGFloat?, selectedCellColor: UIColor?,selectedFont: UIFont?, selectedFontColor: UIColor?, borderColor: UIColor?, selectedBorderColor: UIColor?) {
+        self.cellColor = cellColor
+        self.font = font
+        self.fontColor = fontColor
+        self.insets = insets
+        self.cornerRadius = cornerRadius
+        self.selectedCellColor = selectedCellColor
+        self.selectedFont = selectedFont
+        self.selectedFontColor = selectedFontColor
+        self.borderColor = borderColor
+        self.selectedBorderColor = selectedBorderColor
     }
 }

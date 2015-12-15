@@ -37,6 +37,4 @@ Collection view subclass for displaying tags as bubbles.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'FSQCollectionViewAlignedLayout', '~> 1.1'
-   s.dependency 'SnapKit', '~> 0.18.0'
 end

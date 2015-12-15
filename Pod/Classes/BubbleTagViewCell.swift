@@ -8,41 +8,20 @@
 
 import UIKit
 
-import SnapKit
 class BubbleTagViewCell: UICollectionViewCell {
     
-    var tagButton: UIButton!
     var tagLabel : UILabel!
-   
-    var topBottomConstraints : [NSLayoutConstraint] = []
-    var leftRightConstraints : [NSLayoutConstraint] = []
     
-    var insets : UIEdgeInsets = BubbleTagViewConfiguration.inset {
-        didSet(newInsets) {
-
-          //  self.contentView.removeConstraints(leftRightConstraints)
-           // self.contentView.removeConstraints(topBottomConstraints)
-            
-           // self.tagLabel.removeConstraints(self.tagLabel.constraints)
-            self.updateContstraints()
-            
-            
-        }
-        
-    }
-    
-    var notSelectedFont : UIFont = BubbleTagViewConfiguration.cellFont {
+    var notSelectedFont : UIFont = UIFont.systemFontOfSize(10) {
         willSet(font) {
-           
             if (!selected) {
                 self.tagLabel!.font = font
             }
-          
         }
         
     }
     
-    var notSelectedFontColor : UIColor = BubbleTagViewConfiguration.cellFontColor {
+    var notSelectedFontColor : UIColor = UIColor.blackColor() {
         willSet(color) {
             if (!selected) {
                 self.tagLabel!.textColor = color
@@ -51,7 +30,7 @@ class BubbleTagViewCell: UICollectionViewCell {
     }
     
     
-    var notSelectedColor : UIColor = BubbleTagViewConfiguration.cellBackgroundColor {
+    var notSelectedColor : UIColor = UIColor.grayColor() {
         willSet(color) {
             if (!selected) {
                 self.backgroundColor = color
@@ -66,7 +45,7 @@ class BubbleTagViewCell: UICollectionViewCell {
     }
     
     
-    var selectedFont : UIFont = BubbleTagViewConfiguration.cellFont {
+    var selectedFont : UIFont = UIFont.systemFontOfSize(10) {
         willSet(font) {
             
             if (selected) {
@@ -77,14 +56,15 @@ class BubbleTagViewCell: UICollectionViewCell {
         
     }
     
-    var selectedFontColor : UIColor = BubbleTagViewConfiguration.cellFontColor {
+    var selectedFontColor : UIColor = UIColor.blackColor() {
         willSet(color) {
             if (selected) {
                 self.tagLabel!.textColor = color
             }
         }
     }
-    var selectedColor : UIColor = BubbleTagViewConfiguration.cellBackgroundColor {
+    
+    var selectedColor : UIColor = UIColor.grayColor() {
         willSet(color) {
             if (selected) {
                 self.backgroundColor = color
@@ -169,38 +149,35 @@ class BubbleTagViewCell: UICollectionViewCell {
         self.commonInit()
     }
     
-    
     func commonInit() {
         self.layer.cornerRadius = self.layer.frame.height/2
         self.layer.masksToBounds = true
         self.layer.borderWidth = 4.0
         
         self.tagLabel = UILabel()
-
+        
         self.tagLabel.translatesAutoresizingMaskIntoConstraints = false
         
-        tagLabel.sizeToFit()
-
         contentView.addSubview(self.tagLabel)
-        updateContstraints()
+        initConstraints()
         
         tagLabel.textAlignment = .Center
-        
         self.tagLabel.contentMode = UIViewContentMode.Center
     }
     
     func setText(text:String) {
         tagLabel.text = text
         tagLabel.sizeToFit()
-        
-       // self.setNeedsLayout()
-        //self.layoutIfNeeded()
     }
     
-    func updateContstraints ()  {
-        tagLabel.snp_remakeConstraints(closure: { make -> Void in
-            make.edges.equalTo(contentView).inset(insets)
-        })
+    func initConstraints ()  {
+        
+        let leadingConstraint = NSLayoutConstraint(item: tagLabel, attribute: NSLayoutAttribute.Leading, relatedBy: NSLayoutRelation.Equal, toItem: contentView, attribute: NSLayoutAttribute.Leading, multiplier: 1, constant: 0)
+        let trailingConstraint = NSLayoutConstraint(item: tagLabel, attribute: NSLayoutAttribute.Trailing, relatedBy: NSLayoutRelation.Equal, toItem: contentView, attribute: NSLayoutAttribute.Trailing, multiplier: 1, constant: 0)
+        let topConstraint = NSLayoutConstraint(item: tagLabel, attribute: NSLayoutAttribute.Top, relatedBy: NSLayoutRelation.Equal, toItem: contentView, attribute: NSLayoutAttribute.Top, multiplier: 1, constant: 0)
+        let bottomConstraint = NSLayoutConstraint(item: tagLabel, attribute: NSLayoutAttribute.Bottom, relatedBy: NSLayoutRelation.Equal, toItem: contentView, attribute: NSLayoutAttribute.Bottom, multiplier: 1, constant: 0)
+        
+        contentView.addConstraints([leadingConstraint,trailingConstraint,topConstraint,bottomConstraint])
     }
     
     func configurateCell(cellConfiguration: BubbleTagViewCellConfiguration) {
@@ -220,17 +197,12 @@ class BubbleTagViewCell: UICollectionViewCell {
             self.selectedFontColor = color
         }
         
-        self.notSelectedBorderColor = cellConfiguration.cellBorderColor
-        self.selectedBorderColor = cellConfiguration.selectedCellBorderColor
-        
-        if let insets = cellConfiguration.insets {
-            self.insets = insets
-        }
+        self.notSelectedBorderColor = cellConfiguration.borderColor
+        self.selectedBorderColor = cellConfiguration.selectedBorderColor
         
         if let cornerRadius = cellConfiguration.cornerRadius {
             self.cornerRadius = cornerRadius
         }
-
     }
 
 }

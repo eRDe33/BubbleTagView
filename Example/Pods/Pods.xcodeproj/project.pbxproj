@@ -7,240 +7,127 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0145F78981A8807B6B50B52355FF19D5 /* FSQCollectionViewAlignedLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBAB876E63A0B43D1C05A51F4CD8B89 /* FSQCollectionViewAlignedLayout-dummy.m */; };
-		120DE5FA8C58FCEF49EFCBE27C49AB58 /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AB6F14DD8DFB83C85E6015995752F /* ViewController+SnapKit.swift */; };
-		1A15DA8DB074321187655BE377198D8A /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C54521DEFF2A8E8592A3462741CCF62E /* SnapKit-dummy.m */; };
-		1E9C98EB1D1AABFA305F90B903B92759 /* BubbleTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E0D3B1614608A1A02344AEAB06082 /* BubbleTagView.swift */; };
-		297345B4330AAFAF822FFEC35EE06973 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E577BD031EB2B5FCB98B81DD2659F00 /* EdgeInsets.swift */; };
-		30F1810B6211D73335C5153B1C63938D /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813EDF36935E680B70F290F56495506D /* LayoutConstraint.swift */; };
-		4216B8E163A0D919A58CA06AB86A6491 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FFE52135F80314AD63171B00F04198E /* Foundation.framework */; };
-		4656095E12C19592777046163C9E78EB /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D8A8A51870922C9148746D9D02AF8C /* ConstraintAttributes.swift */; };
-		4A15E4E317022CE516DE9B3F7C5BFA47 /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9F2A94D9CF62C4239C7AFFF78978EE /* SnapKit.swift */; };
-		4F7D1F93B2F63E7E12496FF900F3BA06 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FB18AFE9DF1DB1EC0B3628ADB4BE41 /* ConstraintRelation.swift */; };
-		5D57C8D1F70DD89E04FD9BDA6492C393 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3841C8BA32F0B400EE0720AF19912D88 /* Constraint.swift */; };
-		74211E0DDA6A9195632D1F6A4AF0628B /* FSQCollectionViewAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C33F275BFB0945A4F2B0DFE63D1AAC6 /* FSQCollectionViewAlignedLayout.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		755BA38F5A022F47906D0866EFCFBE91 /* Pods-BubbleTagView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 599BD404E10FDDD7293431BB88ED7A9E /* Pods-BubbleTagView_Example-dummy.m */; };
-		7EDC93396A91266A583D79927B7CF693 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB541A048DD8DC4F6DA8AD638F3962C /* ConstraintItem.swift */; };
-		8F14EE388BA6A81EB1E392DAFE7FB430 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D827CD5AE32F1E89F2BB4FDA0622A18 /* Debugging.swift */; };
-		91B9AE03966B39C28B95981D2F20005B /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9A65DA432F38A14F36DD942AB9A2F9 /* ConstraintDescription.swift */; };
-		94B7A102145872661A3B204865751DE5 /* BubbleTagView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3F5B689D20FCACCAE47D3D0E897AC479 /* BubbleTagView.bundle */; };
-		AB591A0D7926F9F32F8DA16F0C2B57DD /* BubbleTagView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E84547D052752E534E8C3F3411F38B /* BubbleTagView-dummy.m */; };
-		B18E4F949D2DF35C8DFA0D72363B53A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FFE52135F80314AD63171B00F04198E /* Foundation.framework */; };
-		B3795A5DC18149425F530295BE5D3B2C /* BubbleTagView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C44162E234CBCD14CCD2DA1E5540E68 /* BubbleTagView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5525F5920C2189B6FF06FF4BB1366FD /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699B38A543709766149341E9A2BB41D6 /* ConstraintMaker.swift */; };
-		B67E427DB9D342520FF476816E22D4CD /* Pods-BubbleTagView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC651B82454A3A0BE78F1A72BFD51497 /* Pods-BubbleTagView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7E6696E1BD3DE698915582B69822DC4 /* Pods-BubbleTagView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2301777CCA85F2DB42250D5221F78211 /* Pods-BubbleTagView_Tests-dummy.m */; };
-		BF198359EA175E4E875BE8B1186A3F55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FFE52135F80314AD63171B00F04198E /* Foundation.framework */; };
-		C420EF27237FC8D5578A1B098048980C /* FSQCollectionViewAlignedLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A4201902B75C6BABED4CCB76781C50 /* FSQCollectionViewAlignedLayout.framework */; };
-		CCD889B1E2DF96999D670A344618242C /* BubbleTagViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD6FF1D994D3AF282568DDE8FF28A88 /* BubbleTagViewCell.swift */; };
-		DC745EFFC9C245B4FE7D73305AF00546 /* Pods-BubbleTagView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 529D6A0C2A4A306DD1B5F3CE88FD0A9C /* Pods-BubbleTagView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDF8901C63070603A1EAB1BDC775AEB6 /* BubbleTagViewCellConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB6A237794D9E21359277B6AD694D18 /* BubbleTagViewCellConfiguration.swift */; };
-		E8359CB0846BA372EA599099FFEF491F /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A359E77A4616C431C2014BE6FA9FF90 /* View+SnapKit.swift */; };
-		E96F443ED1C7AE64DD0F47B642C37861 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FFE52135F80314AD63171B00F04198E /* Foundation.framework */; };
-		E99348AA3DB0B37BB8AB7AC92CD1D333 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7571C9FDD0761AFD2166F0BD11BB4082 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0B89A2201AC1765287328429C10D59E /* FSQCollectionViewAlignedLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 86F1E238F14C59947E868B641BA9193C /* FSQCollectionViewAlignedLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7DB848BCF21CD4F862B51B1608B343A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FFE52135F80314AD63171B00F04198E /* Foundation.framework */; };
-		F7E14F8FA5DF2A227D214B66B1A73D9D /* BubbleTagViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A06F69EE46D35A28EE17D9ADCE9E7B6 /* BubbleTagViewConfiguration.swift */; };
-		FAA12078DC6C10881EB6C907625918A8 /* FSQCollectionViewAlignedLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D09202978B110603370F4861A84658A1 /* FSQCollectionViewAlignedLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FCA82560D8F7DABD480942AB0B5D7B9D /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E73901CF078045AC45D0A6AED6DFD7CA /* SnapKit.framework */; };
+		10241E59118761DFF5EB055F2B044E66 /* Pods-BubbleTagView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2301777CCA85F2DB42250D5221F78211 /* Pods-BubbleTagView_Tests-dummy.m */; };
+		12D32EFEEBB13696BB134D0C34AE0E1E /* BubbleTagView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EBF26A8F570F07F6633227120671BA87 /* BubbleTagView.bundle */; };
+		208AA86AB8EE9A473557AEC322AA80A2 /* Pods-BubbleTagView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 529D6A0C2A4A306DD1B5F3CE88FD0A9C /* Pods-BubbleTagView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20D088D20DD605D2B31D47F07F7C0AD8 /* BubbleTagViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD6FF1D994D3AF282568DDE8FF28A88 /* BubbleTagViewCell.swift */; };
+		276A0D10EDF66EDF17C0A7F8BF28EEE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		32AF90C0BFF282405FE34B5B22C89907 /* Pods-BubbleTagView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC651B82454A3A0BE78F1A72BFD51497 /* Pods-BubbleTagView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		418AEACE2EEA8302047CF8A737398FC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		4A53068872178BADABF13C87DECE6D92 /* BubbleTagView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E84547D052752E534E8C3F3411F38B /* BubbleTagView-dummy.m */; };
+		82B31075C4D1669286A61646D399C58A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		8CF3CF41957E94F5E33E64F56DFACD62 /* Pods-BubbleTagView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 599BD404E10FDDD7293431BB88ED7A9E /* Pods-BubbleTagView_Example-dummy.m */; };
+		B97E1C8CDA159E221360EACFA286932A /* BubbleTagViewCellConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB6A237794D9E21359277B6AD694D18 /* BubbleTagViewCellConfiguration.swift */; };
+		E2A1AB1D54A66AF764661C50CAB95F7B /* BubbleTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E0D3B1614608A1A02344AEAB06082 /* BubbleTagView.swift */; };
+		F55F25747FD3C3EC78C232FC4C7F8634 /* BubbleTagView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C44162E234CBCD14CCD2DA1E5540E68 /* BubbleTagView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		07812FAFE7783E1456173B552403DE41 /* PBXContainerItemProxy */ = {
+		29F2E6717547FAC5BBBE5C431CD8067C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DA6E401E28DFF6595FC0E6C9B4A97201;
+			remoteGlobalIDString = 99CF6D69E3DDF5DEFBC06869983C717D;
+			remoteInfo = BubbleTagView;
+		};
+		2B231A4024F16D045D26022360EE0B3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99CF6D69E3DDF5DEFBC06869983C717D;
+			remoteInfo = BubbleTagView;
+		};
+		57324DF7108F7F22DF7D9CE3AABDD007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCAAD3116523EC98EEFE21A56D885F15;
 			remoteInfo = "BubbleTagView-BubbleTagView";
-		};
-		1A654B53C294C56CC688EDF25E1FA6F9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 73ECA071FE80C2B08E6BC408801A9852;
-			remoteInfo = SnapKit;
-		};
-		5611D9AA80E2FF22ABCB8E900E6940AA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1C895C74B995340B51838EDC0600D75F;
-			remoteInfo = BubbleTagView;
-		};
-		64922B9A049F1F0BDDCC987D9A5E71EB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E612AA558AA00D7661F7F5E50A57159B;
-			remoteInfo = FSQCollectionViewAlignedLayout;
-		};
-		A1F8CD43FFC26B18665C0C5532B196E9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 73ECA071FE80C2B08E6BC408801A9852;
-			remoteInfo = SnapKit;
-		};
-		B1D30059A3B0A64065B9ED81DA0C4F3F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 73ECA071FE80C2B08E6BC408801A9852;
-			remoteInfo = SnapKit;
-		};
-		B5C6A07D18EE0708A07CC62913B834EB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E612AA558AA00D7661F7F5E50A57159B;
-			remoteInfo = FSQCollectionViewAlignedLayout;
-		};
-		DA718D136D12EF953C326C316AE624CE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1C895C74B995340B51838EDC0600D75F;
-			remoteInfo = BubbleTagView;
-		};
-		DB4F7AD0509F03BE2E336467AC3CB275 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E612AA558AA00D7661F7F5E50A57159B;
-			remoteInfo = FSQCollectionViewAlignedLayout;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		036493EFFC06327569605F3698026097 /* BubbleTagView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BubbleTagView.xcconfig; sourceTree = "<group>"; };
-		08A4201902B75C6BABED4CCB76781C50 /* FSQCollectionViewAlignedLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FSQCollectionViewAlignedLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A06F69EE46D35A28EE17D9ADCE9E7B6 /* BubbleTagViewConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BubbleTagViewConfiguration.swift; sourceTree = "<group>"; };
-		0C33F275BFB0945A4F2B0DFE63D1AAC6 /* FSQCollectionViewAlignedLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FSQCollectionViewAlignedLayout.m; sourceTree = "<group>"; };
 		0E137C11EC54BD583C3771B166628082 /* BubbleTagView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BubbleTagView-prefix.pch"; sourceTree = "<group>"; };
 		0F4DDB6CD5C63D578C7F9EC4DC21E9AF /* Pods-BubbleTagView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BubbleTagView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		15816CD3FC4F807C0B89D72D22852501 /* Pods_BubbleTagView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BubbleTagView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		165AD7A27E761AC1855A128AAB6549F8 /* Pods-BubbleTagView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BubbleTagView_Tests.modulemap"; sourceTree = "<group>"; };
-		171B7CEF6B29C8DD6465CF8693656075 /* FSQCollectionViewAlignedLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FSQCollectionViewAlignedLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C44162E234CBCD14CCD2DA1E5540E68 /* BubbleTagView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BubbleTagView-umbrella.h"; sourceTree = "<group>"; };
-		1D827CD5AE32F1E89F2BB4FDA0622A18 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
-		1EB541A048DD8DC4F6DA8AD638F3962C /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
 		2301777CCA85F2DB42250D5221F78211 /* Pods-BubbleTagView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BubbleTagView_Tests-dummy.m"; sourceTree = "<group>"; };
 		27FC2FC102345B6D17C3A57704AB7329 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28BC473303E2D82B7EFAF1D6FF5D41E9 /* BubbleTagView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BubbleTagView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29750A3841FBD97CA766074E8C5B5F41 /* Pods-BubbleTagView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BubbleTagView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2D867830BAEE3BF7BC1A83BF5CA9D305 /* Pods-BubbleTagView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BubbleTagView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		2E577BD031EB2B5FCB98B81DD2659F00 /* EdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EdgeInsets.swift; path = Source/EdgeInsets.swift; sourceTree = "<group>"; };
-		324AB6F14DD8DFB83C85E6015995752F /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+SnapKit.swift"; path = "Source/ViewController+SnapKit.swift"; sourceTree = "<group>"; };
-		360B0055D1A90A16D464480D064AB3CE /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
-		3841C8BA32F0B400EE0720AF19912D88 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
-		3C32DACAC2BD88F20A936D71F5E7E41D /* Pods_BubbleTagView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BubbleTagView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F5B689D20FCACCAE47D3D0E897AC479 /* BubbleTagView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubbleTagView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		495817951D9D676BC630F8101C02FAE1 /* Pods-BubbleTagView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BubbleTagView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		52892F892970E123A3705BC10462C2E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		529D6A0C2A4A306DD1B5F3CE88FD0A9C /* Pods-BubbleTagView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BubbleTagView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		53D8A8A51870922C9148746D9D02AF8C /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
 		56E84547D052752E534E8C3F3411F38B /* BubbleTagView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BubbleTagView-dummy.m"; sourceTree = "<group>"; };
 		599BD404E10FDDD7293431BB88ED7A9E /* Pods-BubbleTagView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BubbleTagView_Example-dummy.m"; sourceTree = "<group>"; };
-		5B9F2A94D9CF62C4239C7AFFF78978EE /* SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapKit.swift; path = Source/SnapKit.swift; sourceTree = "<group>"; };
-		5FFE52135F80314AD63171B00F04198E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		60B7D12809E2A5FE47D36AB019BDD895 /* Pods-BubbleTagView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BubbleTagView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		699B38A543709766149341E9A2BB41D6 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
-		7571C9FDD0761AFD2166F0BD11BB4082 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
-		7A359E77A4616C431C2014BE6FA9FF90 /* View+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+SnapKit.swift"; path = "Source/View+SnapKit.swift"; sourceTree = "<group>"; };
-		7FBAB876E63A0B43D1C05A51F4CD8B89 /* FSQCollectionViewAlignedLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSQCollectionViewAlignedLayout-dummy.m"; sourceTree = "<group>"; };
-		813EDF36935E680B70F290F56495506D /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
 		85A2946BC882E18B4855CAB59F734C7E /* Pods-BubbleTagView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BubbleTagView_Example-resources.sh"; sourceTree = "<group>"; };
-		86F1E238F14C59947E868B641BA9193C /* FSQCollectionViewAlignedLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FSQCollectionViewAlignedLayout.h; sourceTree = "<group>"; };
-		8A60CDEB428F1A575BBC832D7DCC9F9D /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
 		8B4E1D394F2AF6F23FA8A2E5DD185CE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B536F7508A56DF976E8A38D3782E80E /* Pods_BubbleTagView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BubbleTagView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93BE636F3A85DF507495C04BDA6F60B0 /* BubbleTagView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BubbleTagView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		96F8CB4743A0921EE933FD523DB2173C /* FSQCollectionViewAlignedLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSQCollectionViewAlignedLayout-prefix.pch"; sourceTree = "<group>"; };
 		9F0657A1828983E651EF9A642FC11DC7 /* Pods-BubbleTagView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BubbleTagView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A4EE1D6DCC1B313E1CFC68C1EF699DA5 /* FSQCollectionViewAlignedLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FSQCollectionViewAlignedLayout.modulemap; sourceTree = "<group>"; };
 		ADC31DAA84E81DD60F0061B3E4B9F694 /* Pods-BubbleTagView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BubbleTagView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AE034C0CA5206F222A4DE43BDC2DEDFD /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SnapKit.modulemap; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BC651B82454A3A0BE78F1A72BFD51497 /* Pods-BubbleTagView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BubbleTagView_Example-umbrella.h"; sourceTree = "<group>"; };
 		BFD6FF1D994D3AF282568DDE8FF28A88 /* BubbleTagViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BubbleTagViewCell.swift; sourceTree = "<group>"; };
-		C54521DEFF2A8E8592A3462741CCF62E /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
 		CE4E0D3B1614608A1A02344AEAB06082 /* BubbleTagView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BubbleTagView.swift; sourceTree = "<group>"; };
-		CE5E045D56F4913328183D15F8C0F2C5 /* FSQCollectionViewAlignedLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSQCollectionViewAlignedLayout.xcconfig; sourceTree = "<group>"; };
-		CE9A65DA432F38A14F36DD942AB9A2F9 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
-		D09202978B110603370F4861A84658A1 /* FSQCollectionViewAlignedLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSQCollectionViewAlignedLayout-umbrella.h"; sourceTree = "<group>"; };
 		D6EB155E768FEB49B3868F12747E41D7 /* Pods-BubbleTagView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BubbleTagView_Tests-resources.sh"; sourceTree = "<group>"; };
 		D76873CA7E98B18CFD9294C68F4FDB5D /* Pods-BubbleTagView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BubbleTagView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D7DBC8ACCA08684FF688CD8819743583 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E22BF50E4D6EEB2392CE3B7818F06895 /* Pods-BubbleTagView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BubbleTagView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E28D04E45C6CBDBAEDAF95C6AD9BE4B7 /* BubbleTagView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BubbleTagView.modulemap; sourceTree = "<group>"; };
 		E5E7EA67EB7754EB45A0CB88A7D7F452 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E73901CF078045AC45D0A6AED6DFD7CA /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7D0CAD0A145F7FEF57B6C2D3B68A9C4 /* Pods-BubbleTagView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BubbleTagView_Example.modulemap"; sourceTree = "<group>"; };
 		EBB6A237794D9E21359277B6AD694D18 /* BubbleTagViewCellConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BubbleTagViewCellConfiguration.swift; sourceTree = "<group>"; };
-		F0921A1E30F29B7F174E427008824362 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1FB18AFE9DF1DB1EC0B3628ADB4BE41 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		EBF26A8F570F07F6633227120671BA87 /* BubbleTagView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubbleTagView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8B2AE0BC8458DE68CDBDAA1828EB58 /* Pods_BubbleTagView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BubbleTagView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A092DB20E80A205332D0267ED03D56 /* Pods-BubbleTagView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BubbleTagView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2EE026BE3DD6DD1AA246824ECEBD5277 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4216B8E163A0D919A58CA06AB86A6491 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		649E0E30027A5AEA3087F801019415B6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF198359EA175E4E875BE8B1186A3F55 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8273E6A0B648BA4E500517A71F01BD6C /* Frameworks */ = {
+		01494E16DE5D7AFF042429F2757F9D14 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8C64F07335C074C926199BAC7E77C99 /* Frameworks */ = {
+		3AA251BD4CE308B36D5DC42314301DD7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7DB848BCF21CD4F862B51B1608B343A /* Foundation.framework in Frameworks */,
+				276A0D10EDF66EDF17C0A7F8BF28EEE4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C51FD61B5B6FCA53BA2B76C927D4C998 /* Frameworks */ = {
+		5B769133F9CD425661D25FF900ACD3DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B18E4F949D2DF35C8DFA0D72363B53A7 /* Foundation.framework in Frameworks */,
+				82B31075C4D1669286A61646D399C58A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF29FFDFAFEEA5171AEAB048280AE858 /* Frameworks */ = {
+		6C34EC3B89559EBC9CE1697A4F46E202 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E96F443ED1C7AE64DD0F47B642C37861 /* Foundation.framework in Frameworks */,
-				C420EF27237FC8D5578A1B098048980C /* FSQCollectionViewAlignedLayout.framework in Frameworks */,
-				FCA82560D8F7DABD480942AB0B5D7B9D /* SnapKit.framework in Frameworks */,
+				418AEACE2EEA8302047CF8A737398FC2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		089E50A8406CA2C7608B7E7F684E3291 /* Frameworks */ = {
+		10394F0B5FFBFE9153158102FE8162B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				08A4201902B75C6BABED4CCB76781C50 /* FSQCollectionViewAlignedLayout.framework */,
-				E73901CF078045AC45D0A6AED6DFD7CA /* SnapKit.framework */,
-				7CDD54271A5D478D8195867581351C37 /* iOS */,
+				EBF26A8F570F07F6633227120671BA87 /* BubbleTagView.bundle */,
+				28BC473303E2D82B7EFAF1D6FF5D41E9 /* BubbleTagView.framework */,
+				15816CD3FC4F807C0B89D72D22852501 /* Pods_BubbleTagView_Example.framework */,
+				ED8B2AE0BC8458DE68CDBDAA1828EB58 /* Pods_BubbleTagView_Tests.framework */,
 			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		1343A8FCE3624E6DBE629F8AC0A0DACA /* Targets Support Files */ = {
@@ -258,7 +145,6 @@
 				CE4E0D3B1614608A1A02344AEAB06082 /* BubbleTagView.swift */,
 				BFD6FF1D994D3AF282568DDE8FF28A88 /* BubbleTagViewCell.swift */,
 				EBB6A237794D9E21359277B6AD694D18 /* BubbleTagViewCellConfiguration.swift */,
-				0A06F69EE46D35A28EE17D9ADCE9E7B6 /* BubbleTagViewConfiguration.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -271,28 +157,6 @@
 			);
 			name = BubbleTagView;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		546CAD38683ABDEE10FEB44C74620550 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				72124FD2057121F64284380BCE0A9918 /* FSQCollectionViewAlignedLayout */,
-				98793BEB4E9BB12ABC4664E83C5DCB44 /* SnapKit */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		5951DD879BAB07039C575B1F211A4341 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3F5B689D20FCACCAE47D3D0E897AC479 /* BubbleTagView.bundle */,
-				93BE636F3A85DF507495C04BDA6F60B0 /* BubbleTagView.framework */,
-				171B7CEF6B29C8DD6465CF8693656075 /* FSQCollectionViewAlignedLayout.framework */,
-				8B536F7508A56DF976E8A38D3782E80E /* Pods_BubbleTagView_Example.framework */,
-				3C32DACAC2BD88F20A936D71F5E7E41D /* Pods_BubbleTagView_Tests.framework */,
-				D7DBC8ACCA08684FF688CD8819743583 /* SnapKit.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		66FD3E298FE5271EB4CBBEDAAE307D07 /* Pods-BubbleTagView_Tests */ = {
@@ -313,32 +177,13 @@
 			path = "Target Support Files/Pods-BubbleTagView_Tests";
 			sourceTree = "<group>";
 		};
-		72124FD2057121F64284380BCE0A9918 /* FSQCollectionViewAlignedLayout */ = {
-			isa = PBXGroup;
-			children = (
-				86F1E238F14C59947E868B641BA9193C /* FSQCollectionViewAlignedLayout.h */,
-				0C33F275BFB0945A4F2B0DFE63D1AAC6 /* FSQCollectionViewAlignedLayout.m */,
-				8EEB52B56A23000BACAF3AAEA877EE26 /* Support Files */,
-			);
-			path = FSQCollectionViewAlignedLayout;
-			sourceTree = "<group>";
-		};
-		7CDD54271A5D478D8195867581351C37 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5FFE52135F80314AD63171B00F04198E /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				8B3186987649B1AEFFAF6BAF0354459B /* Development Pods */,
-				089E50A8406CA2C7608B7E7F684E3291 /* Frameworks */,
-				546CAD38683ABDEE10FEB44C74620550 /* Pods */,
-				5951DD879BAB07039C575B1F211A4341 /* Products */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				10394F0B5FFBFE9153158102FE8162B9 /* Products */,
 				1343A8FCE3624E6DBE629F8AC0A0DACA /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -351,60 +196,28 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		8EEB52B56A23000BACAF3AAEA877EE26 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A4EE1D6DCC1B313E1CFC68C1EF699DA5 /* FSQCollectionViewAlignedLayout.modulemap */,
-				CE5E045D56F4913328183D15F8C0F2C5 /* FSQCollectionViewAlignedLayout.xcconfig */,
-				7FBAB876E63A0B43D1C05A51F4CD8B89 /* FSQCollectionViewAlignedLayout-dummy.m */,
-				96F8CB4743A0921EE933FD523DB2173C /* FSQCollectionViewAlignedLayout-prefix.pch */,
-				D09202978B110603370F4861A84658A1 /* FSQCollectionViewAlignedLayout-umbrella.h */,
-				52892F892970E123A3705BC10462C2E2 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FSQCollectionViewAlignedLayout";
-			sourceTree = "<group>";
-		};
-		98793BEB4E9BB12ABC4664E83C5DCB44 /* SnapKit */ = {
-			isa = PBXGroup;
-			children = (
-				3841C8BA32F0B400EE0720AF19912D88 /* Constraint.swift */,
-				53D8A8A51870922C9148746D9D02AF8C /* ConstraintAttributes.swift */,
-				CE9A65DA432F38A14F36DD942AB9A2F9 /* ConstraintDescription.swift */,
-				1EB541A048DD8DC4F6DA8AD638F3962C /* ConstraintItem.swift */,
-				699B38A543709766149341E9A2BB41D6 /* ConstraintMaker.swift */,
-				F1FB18AFE9DF1DB1EC0B3628ADB4BE41 /* ConstraintRelation.swift */,
-				1D827CD5AE32F1E89F2BB4FDA0622A18 /* Debugging.swift */,
-				2E577BD031EB2B5FCB98B81DD2659F00 /* EdgeInsets.swift */,
-				813EDF36935E680B70F290F56495506D /* LayoutConstraint.swift */,
-				5B9F2A94D9CF62C4239C7AFFF78978EE /* SnapKit.swift */,
-				7A359E77A4616C431C2014BE6FA9FF90 /* View+SnapKit.swift */,
-				324AB6F14DD8DFB83C85E6015995752F /* ViewController+SnapKit.swift */,
-				B346753131B0D5514BD6E8B06F8F5299 /* Support Files */,
-			);
-			path = SnapKit;
-			sourceTree = "<group>";
-		};
-		B346753131B0D5514BD6E8B06F8F5299 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F0921A1E30F29B7F174E427008824362 /* Info.plist */,
-				AE034C0CA5206F222A4DE43BDC2DEDFD /* SnapKit.modulemap */,
-				360B0055D1A90A16D464480D064AB3CE /* SnapKit.xcconfig */,
-				C54521DEFF2A8E8592A3462741CCF62E /* SnapKit-dummy.m */,
-				8A60CDEB428F1A575BBC832D7DCC9F9D /* SnapKit-prefix.pch */,
-				7571C9FDD0761AFD2166F0BD11BB4082 /* SnapKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SnapKit";
-			sourceTree = "<group>";
-		};
 		B47005C465F09217B06E8D538B6D98DB /* Pod */ = {
 			isa = PBXGroup;
 			children = (
 				44C63CB0E4C055C142581BCD1621A3FE /* Classes */,
 			);
 			path = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		C6FAF9C3D8C5A171281C1330727FC528 /* Support Files */ = {
@@ -442,135 +255,95 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1552A135671FA23B42F0FED6365C7538 /* Headers */ = {
+		077BC89090ABB948AB71C569FC0D9A97 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3795A5DC18149425F530295BE5D3B2C /* BubbleTagView-umbrella.h in Headers */,
+				F55F25747FD3C3EC78C232FC4C7F8634 /* BubbleTagView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D8FE06A38E41F3A5E9DE20A8E877F35 /* Headers */ = {
+		78BEAF4341E3E6B431FE0F6A7DEC869A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E99348AA3DB0B37BB8AB7AC92CD1D333 /* SnapKit-umbrella.h in Headers */,
+				208AA86AB8EE9A473557AEC322AA80A2 /* Pods-BubbleTagView_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61D42749EE154D90F31824DBD81E13DB /* Headers */ = {
+		E5175143A2F31B61E664C207C1EA5FD4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA12078DC6C10881EB6C907625918A8 /* FSQCollectionViewAlignedLayout-umbrella.h in Headers */,
-				F0B89A2201AC1765287328429C10D59E /* FSQCollectionViewAlignedLayout.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE2E5BA39D6E73D9DA8EF26C12AA4903 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B67E427DB9D342520FF476816E22D4CD /* Pods-BubbleTagView_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E6824F0BC6FEC51B0C0AD90368A15F5A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DC745EFFC9C245B4FE7D73305AF00546 /* Pods-BubbleTagView_Tests-umbrella.h in Headers */,
+				32AF90C0BFF282405FE34B5B22C89907 /* Pods-BubbleTagView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1C895C74B995340B51838EDC0600D75F /* BubbleTagView */ = {
+		2C3DBCEA6B9F78752FDAF2846308E845 /* Pods-BubbleTagView_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83B06C5DDF8DAF80664D5FEA9CEA9D51 /* Build configuration list for PBXNativeTarget "BubbleTagView" */;
+			buildConfigurationList = 008E28F19102A5BFFF889469248D1091 /* Build configuration list for PBXNativeTarget "Pods-BubbleTagView_Tests" */;
 			buildPhases = (
-				86DB6FC4C54A8D69430B9EF2DC67F9C0 /* Sources */,
-				EF29FFDFAFEEA5171AEAB048280AE858 /* Frameworks */,
-				3C9F2A9FE6B2815C9939CFCE234EE340 /* Resources */,
-				1552A135671FA23B42F0FED6365C7538 /* Headers */,
+				BFF200897CC1203FD54ED1E91295F48A /* Sources */,
+				6C34EC3B89559EBC9CE1697A4F46E202 /* Frameworks */,
+				78BEAF4341E3E6B431FE0F6A7DEC869A /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EBE66E7BFF1F0F9387208CF0B756356A /* PBXTargetDependency */,
-				6825CC651B09680D5E790ADBE51520E2 /* PBXTargetDependency */,
-				B8269DB409D99D356A2E0DAD532F8101 /* PBXTargetDependency */,
-			);
-			name = BubbleTagView;
-			productName = BubbleTagView;
-			productReference = 93BE636F3A85DF507495C04BDA6F60B0 /* BubbleTagView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		5B3E003902887859896840254A8E3823 /* Pods-BubbleTagView_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3F8E6E7E8C1CB868936A7C16A83424FA /* Build configuration list for PBXNativeTarget "Pods-BubbleTagView_Example" */;
-			buildPhases = (
-				918D3400D32B9088D76D855BB2467AB8 /* Sources */,
-				C51FD61B5B6FCA53BA2B76C927D4C998 /* Frameworks */,
-				AE2E5BA39D6E73D9DA8EF26C12AA4903 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D3B26B78E173ACB6D648C31F851BEE7D /* PBXTargetDependency */,
-				BEF3FB9B15A8FE514AE1DD3F50F7F95B /* PBXTargetDependency */,
-				802671E34C863C4A7E2A1EFAA43E66E5 /* PBXTargetDependency */,
-			);
-			name = "Pods-BubbleTagView_Example";
-			productName = "Pods-BubbleTagView_Example";
-			productReference = 8B536F7508A56DF976E8A38D3782E80E /* Pods_BubbleTagView_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		73ECA071FE80C2B08E6BC408801A9852 /* SnapKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FAC2CC59904E8AE57FA08D455EF6F66A /* Build configuration list for PBXNativeTarget "SnapKit" */;
-			buildPhases = (
-				6AFE5A4339B572287A3F3205850A25B2 /* Sources */,
-				649E0E30027A5AEA3087F801019415B6 /* Frameworks */,
-				4D8FE06A38E41F3A5E9DE20A8E877F35 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SnapKit;
-			productName = SnapKit;
-			productReference = D7DBC8ACCA08684FF688CD8819743583 /* SnapKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B01A90D224D378BBB81D1A2D2E73E6B9 /* Pods-BubbleTagView_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 97D9929023CFBAE3913F7A6528AC36A8 /* Build configuration list for PBXNativeTarget "Pods-BubbleTagView_Tests" */;
-			buildPhases = (
-				EA8B9D163713185A960FB671A922FA50 /* Sources */,
-				2EE026BE3DD6DD1AA246824ECEBD5277 /* Frameworks */,
-				E6824F0BC6FEC51B0C0AD90368A15F5A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CD5536BF4F0E06559942E45811B79FCB /* PBXTargetDependency */,
-				3B832E436E3AFD25B170734670122A46 /* PBXTargetDependency */,
-				F9DEA3C1201BB36661411A929C20FA9E /* PBXTargetDependency */,
+				467577EAECE5B382C130152733F00D41 /* PBXTargetDependency */,
 			);
 			name = "Pods-BubbleTagView_Tests";
 			productName = "Pods-BubbleTagView_Tests";
-			productReference = 3C32DACAC2BD88F20A936D71F5E7E41D /* Pods_BubbleTagView_Tests.framework */;
+			productReference = ED8B2AE0BC8458DE68CDBDAA1828EB58 /* Pods_BubbleTagView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DA6E401E28DFF6595FC0E6C9B4A97201 /* BubbleTagView-BubbleTagView */ = {
+		99CF6D69E3DDF5DEFBC06869983C717D /* BubbleTagView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2DA8ED455823BC80C99F33E24B345077 /* Build configuration list for PBXNativeTarget "BubbleTagView-BubbleTagView" */;
+			buildConfigurationList = 2FD0BAEA76753FCD5AEBCAE13527EBB4 /* Build configuration list for PBXNativeTarget "BubbleTagView" */;
 			buildPhases = (
-				853BE92CD4E1A9B50DA792B2D3360AC8 /* Sources */,
-				8273E6A0B648BA4E500517A71F01BD6C /* Frameworks */,
-				0E60603F412B9C2CD51FA26AD1B66DF6 /* Resources */,
+				5DFF93EBCB19432FEEA4E4D619663F91 /* Sources */,
+				5B769133F9CD425661D25FF900ACD3DE /* Frameworks */,
+				7988AD122F1088EE9DED81F07AB563D3 /* Resources */,
+				077BC89090ABB948AB71C569FC0D9A97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF67D687D964DEB0E98213FA24E53783 /* PBXTargetDependency */,
+			);
+			name = BubbleTagView;
+			productName = BubbleTagView;
+			productReference = 28BC473303E2D82B7EFAF1D6FF5D41E9 /* BubbleTagView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B29E85F1241CABD640B7163BEF43F6C7 /* Pods-BubbleTagView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEB2F16A8F699FA192B7FEFFA53B0A20 /* Build configuration list for PBXNativeTarget "Pods-BubbleTagView_Example" */;
+			buildPhases = (
+				F90094D319035545E830890EB463709B /* Sources */,
+				3AA251BD4CE308B36D5DC42314301DD7 /* Frameworks */,
+				E5175143A2F31B61E664C207C1EA5FD4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D77682484FABBCA814EB563CA26B5B4E /* PBXTargetDependency */,
+			);
+			name = "Pods-BubbleTagView_Example";
+			productName = "Pods-BubbleTagView_Example";
+			productReference = 15816CD3FC4F807C0B89D72D22852501 /* Pods_BubbleTagView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CCAAD3116523EC98EEFE21A56D885F15 /* BubbleTagView-BubbleTagView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68ADB9A0302974BC73F6C52279BD1502 /* Build configuration list for PBXNativeTarget "BubbleTagView-BubbleTagView" */;
+			buildPhases = (
+				E05471BDD1426E22AB0D32FF6FB19E27 /* Sources */,
+				01494E16DE5D7AFF042429F2757F9D14 /* Frameworks */,
+				F0132C5D9783C7D3BAB76A6D74BA098C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -578,25 +351,8 @@
 			);
 			name = "BubbleTagView-BubbleTagView";
 			productName = "BubbleTagView-BubbleTagView";
-			productReference = 3F5B689D20FCACCAE47D3D0E897AC479 /* BubbleTagView.bundle */;
+			productReference = EBF26A8F570F07F6633227120671BA87 /* BubbleTagView.bundle */;
 			productType = "com.apple.product-type.bundle";
-		};
-		E612AA558AA00D7661F7F5E50A57159B /* FSQCollectionViewAlignedLayout */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F2F352D70D3919EA1497E0524B8F53BB /* Build configuration list for PBXNativeTarget "FSQCollectionViewAlignedLayout" */;
-			buildPhases = (
-				90627D033538DA2D10B0EDE54F38BEE5 /* Sources */,
-				A8C64F07335C074C926199BAC7E77C99 /* Frameworks */,
-				61D42749EE154D90F31824DBD81E13DB /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FSQCollectionViewAlignedLayout;
-			productName = FSQCollectionViewAlignedLayout;
-			productReference = 171B7CEF6B29C8DD6465CF8693656075 /* FSQCollectionViewAlignedLayout.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -615,205 +371,95 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 5951DD879BAB07039C575B1F211A4341 /* Products */;
+			productRefGroup = 10394F0B5FFBFE9153158102FE8162B9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1C895C74B995340B51838EDC0600D75F /* BubbleTagView */,
-				DA6E401E28DFF6595FC0E6C9B4A97201 /* BubbleTagView-BubbleTagView */,
-				E612AA558AA00D7661F7F5E50A57159B /* FSQCollectionViewAlignedLayout */,
-				5B3E003902887859896840254A8E3823 /* Pods-BubbleTagView_Example */,
-				B01A90D224D378BBB81D1A2D2E73E6B9 /* Pods-BubbleTagView_Tests */,
-				73ECA071FE80C2B08E6BC408801A9852 /* SnapKit */,
+				99CF6D69E3DDF5DEFBC06869983C717D /* BubbleTagView */,
+				CCAAD3116523EC98EEFE21A56D885F15 /* BubbleTagView-BubbleTagView */,
+				B29E85F1241CABD640B7163BEF43F6C7 /* Pods-BubbleTagView_Example */,
+				2C3DBCEA6B9F78752FDAF2846308E845 /* Pods-BubbleTagView_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0E60603F412B9C2CD51FA26AD1B66DF6 /* Resources */ = {
+		7988AD122F1088EE9DED81F07AB563D3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12D32EFEEBB13696BB134D0C34AE0E1E /* BubbleTagView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3C9F2A9FE6B2815C9939CFCE234EE340 /* Resources */ = {
+		F0132C5D9783C7D3BAB76A6D74BA098C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94B7A102145872661A3B204865751DE5 /* BubbleTagView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6AFE5A4339B572287A3F3205850A25B2 /* Sources */ = {
+		5DFF93EBCB19432FEEA4E4D619663F91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D57C8D1F70DD89E04FD9BDA6492C393 /* Constraint.swift in Sources */,
-				4656095E12C19592777046163C9E78EB /* ConstraintAttributes.swift in Sources */,
-				91B9AE03966B39C28B95981D2F20005B /* ConstraintDescription.swift in Sources */,
-				7EDC93396A91266A583D79927B7CF693 /* ConstraintItem.swift in Sources */,
-				B5525F5920C2189B6FF06FF4BB1366FD /* ConstraintMaker.swift in Sources */,
-				4F7D1F93B2F63E7E12496FF900F3BA06 /* ConstraintRelation.swift in Sources */,
-				8F14EE388BA6A81EB1E392DAFE7FB430 /* Debugging.swift in Sources */,
-				297345B4330AAFAF822FFEC35EE06973 /* EdgeInsets.swift in Sources */,
-				30F1810B6211D73335C5153B1C63938D /* LayoutConstraint.swift in Sources */,
-				1A15DA8DB074321187655BE377198D8A /* SnapKit-dummy.m in Sources */,
-				4A15E4E317022CE516DE9B3F7C5BFA47 /* SnapKit.swift in Sources */,
-				E8359CB0846BA372EA599099FFEF491F /* View+SnapKit.swift in Sources */,
-				120DE5FA8C58FCEF49EFCBE27C49AB58 /* ViewController+SnapKit.swift in Sources */,
+				4A53068872178BADABF13C87DECE6D92 /* BubbleTagView-dummy.m in Sources */,
+				E2A1AB1D54A66AF764661C50CAB95F7B /* BubbleTagView.swift in Sources */,
+				20D088D20DD605D2B31D47F07F7C0AD8 /* BubbleTagViewCell.swift in Sources */,
+				B97E1C8CDA159E221360EACFA286932A /* BubbleTagViewCellConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		853BE92CD4E1A9B50DA792B2D3360AC8 /* Sources */ = {
+		BFF200897CC1203FD54ED1E91295F48A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10241E59118761DFF5EB055F2B044E66 /* Pods-BubbleTagView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E05471BDD1426E22AB0D32FF6FB19E27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86DB6FC4C54A8D69430B9EF2DC67F9C0 /* Sources */ = {
+		F90094D319035545E830890EB463709B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB591A0D7926F9F32F8DA16F0C2B57DD /* BubbleTagView-dummy.m in Sources */,
-				1E9C98EB1D1AABFA305F90B903B92759 /* BubbleTagView.swift in Sources */,
-				CCD889B1E2DF96999D670A344618242C /* BubbleTagViewCell.swift in Sources */,
-				DDF8901C63070603A1EAB1BDC775AEB6 /* BubbleTagViewCellConfiguration.swift in Sources */,
-				F7E14F8FA5DF2A227D214B66B1A73D9D /* BubbleTagViewConfiguration.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		90627D033538DA2D10B0EDE54F38BEE5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0145F78981A8807B6B50B52355FF19D5 /* FSQCollectionViewAlignedLayout-dummy.m in Sources */,
-				74211E0DDA6A9195632D1F6A4AF0628B /* FSQCollectionViewAlignedLayout.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		918D3400D32B9088D76D855BB2467AB8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				755BA38F5A022F47906D0866EFCFBE91 /* Pods-BubbleTagView_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EA8B9D163713185A960FB671A922FA50 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B7E6696E1BD3DE698915582B69822DC4 /* Pods-BubbleTagView_Tests-dummy.m in Sources */,
+				8CF3CF41957E94F5E33E64F56DFACD62 /* Pods-BubbleTagView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3B832E436E3AFD25B170734670122A46 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FSQCollectionViewAlignedLayout;
-			target = E612AA558AA00D7661F7F5E50A57159B /* FSQCollectionViewAlignedLayout */;
-			targetProxy = 64922B9A049F1F0BDDCC987D9A5E71EB /* PBXContainerItemProxy */;
-		};
-		6825CC651B09680D5E790ADBE51520E2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FSQCollectionViewAlignedLayout;
-			target = E612AA558AA00D7661F7F5E50A57159B /* FSQCollectionViewAlignedLayout */;
-			targetProxy = DB4F7AD0509F03BE2E336467AC3CB275 /* PBXContainerItemProxy */;
-		};
-		802671E34C863C4A7E2A1EFAA43E66E5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SnapKit;
-			target = 73ECA071FE80C2B08E6BC408801A9852 /* SnapKit */;
-			targetProxy = 1A654B53C294C56CC688EDF25E1FA6F9 /* PBXContainerItemProxy */;
-		};
-		B8269DB409D99D356A2E0DAD532F8101 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SnapKit;
-			target = 73ECA071FE80C2B08E6BC408801A9852 /* SnapKit */;
-			targetProxy = B1D30059A3B0A64065B9ED81DA0C4F3F /* PBXContainerItemProxy */;
-		};
-		BEF3FB9B15A8FE514AE1DD3F50F7F95B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FSQCollectionViewAlignedLayout;
-			target = E612AA558AA00D7661F7F5E50A57159B /* FSQCollectionViewAlignedLayout */;
-			targetProxy = B5C6A07D18EE0708A07CC62913B834EB /* PBXContainerItemProxy */;
-		};
-		CD5536BF4F0E06559942E45811B79FCB /* PBXTargetDependency */ = {
+		467577EAECE5B382C130152733F00D41 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BubbleTagView;
-			target = 1C895C74B995340B51838EDC0600D75F /* BubbleTagView */;
-			targetProxy = 5611D9AA80E2FF22ABCB8E900E6940AA /* PBXContainerItemProxy */;
+			target = 99CF6D69E3DDF5DEFBC06869983C717D /* BubbleTagView */;
+			targetProxy = 2B231A4024F16D045D26022360EE0B3A /* PBXContainerItemProxy */;
 		};
-		D3B26B78E173ACB6D648C31F851BEE7D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = BubbleTagView;
-			target = 1C895C74B995340B51838EDC0600D75F /* BubbleTagView */;
-			targetProxy = DA718D136D12EF953C326C316AE624CE /* PBXContainerItemProxy */;
-		};
-		EBE66E7BFF1F0F9387208CF0B756356A /* PBXTargetDependency */ = {
+		BF67D687D964DEB0E98213FA24E53783 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "BubbleTagView-BubbleTagView";
-			target = DA6E401E28DFF6595FC0E6C9B4A97201 /* BubbleTagView-BubbleTagView */;
-			targetProxy = 07812FAFE7783E1456173B552403DE41 /* PBXContainerItemProxy */;
+			target = CCAAD3116523EC98EEFE21A56D885F15 /* BubbleTagView-BubbleTagView */;
+			targetProxy = 57324DF7108F7F22DF7D9CE3AABDD007 /* PBXContainerItemProxy */;
 		};
-		F9DEA3C1201BB36661411A929C20FA9E /* PBXTargetDependency */ = {
+		D77682484FABBCA814EB563CA26B5B4E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SnapKit;
-			target = 73ECA071FE80C2B08E6BC408801A9852 /* SnapKit */;
-			targetProxy = A1F8CD43FFC26B18665C0C5532B196E9 /* PBXContainerItemProxy */;
+			name = BubbleTagView;
+			target = 99CF6D69E3DDF5DEFBC06869983C717D /* BubbleTagView */;
+			targetProxy = 29F2E6717547FAC5BBBE5C431CD8067C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		08FFB57ABBC06C27A8D0AE187740655A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 036493EFFC06327569605F3698026097 /* BubbleTagView.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = BubbleTagView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		0EF5B915E4EA71EF5F27430D31FC7DBB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29750A3841FBD97CA766074E8C5B5F41 /* Pods-BubbleTagView_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-BubbleTagView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BubbleTagView_Tests/Pods-BubbleTagView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_BubbleTagView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -848,63 +494,21 @@
 			};
 			name = Release;
 		};
-		13446EC3FC9BF418CB3A9EA2B8E6AE45 /* Release */ = {
+		377D2636409D7DC5C7B7CE92F1245666 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE5E045D56F4913328183D15F8C0F2C5 /* FSQCollectionViewAlignedLayout.xcconfig */;
+			baseConfigurationReference = 036493EFFC06327569605F3698026097 /* BubbleTagView.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FSQCollectionViewAlignedLayout/FSQCollectionViewAlignedLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FSQCollectionViewAlignedLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FSQCollectionViewAlignedLayout/FSQCollectionViewAlignedLayout.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FSQCollectionViewAlignedLayout;
+				PRODUCT_NAME = BubbleTagView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		193E47083BFBD4E392117F5D57F73113 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE5E045D56F4913328183D15F8C0F2C5 /* FSQCollectionViewAlignedLayout.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FSQCollectionViewAlignedLayout/FSQCollectionViewAlignedLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FSQCollectionViewAlignedLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FSQCollectionViewAlignedLayout/FSQCollectionViewAlignedLayout.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FSQCollectionViewAlignedLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		1FED670CD062ADD22A887D31B418DDF8 /* Debug */ = {
+		43652AF1974553A8B5D726EBEECE76D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 360B0055D1A90A16D464480D064AB3CE /* SnapKit.xcconfig */;
+			baseConfigurationReference = F3A092DB20E80A205332D0267ED03D56 /* Pods-BubbleTagView_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -913,14 +517,17 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-BubbleTagView_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BubbleTagView_Tests/Pods-BubbleTagView_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SnapKit;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BubbleTagView_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -929,33 +536,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		373182AF2811DB15A2A5236D9528F00D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 360B0055D1A90A16D464480D064AB3CE /* SnapKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SnapKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -996,7 +576,35 @@
 			};
 			name = Debug;
 		};
-		67FEB87CCAFDB2A0B1B0AF5FAE5534B8 /* Debug */ = {
+		5AD4985B6510C36039466286869F8F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 036493EFFC06327569605F3698026097 /* BubbleTagView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BubbleTagView/BubbleTagView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BubbleTagView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BubbleTagView/BubbleTagView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BubbleTagView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7512087236259A7BE6302A37D99B8EDB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ADC31DAA84E81DD60F0061B3E4B9F694 /* Pods-BubbleTagView_Example.debug.xcconfig */;
 			buildSettings = {
@@ -1027,66 +635,7 @@
 			};
 			name = Debug;
 		};
-		82A16781D7A6678CF1945A33ABE0D8FE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3A092DB20E80A205332D0267ED03D56 /* Pods-BubbleTagView_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-BubbleTagView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BubbleTagView_Tests/Pods-BubbleTagView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_BubbleTagView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8BB1B1BDB3B7F3D2F3E14A4D7654391B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 036493EFFC06327569605F3698026097 /* BubbleTagView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BubbleTagView/BubbleTagView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BubbleTagView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BubbleTagView/BubbleTagView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = BubbleTagView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		96236A104FB28EAE9C6491088128A2F9 /* Release */ = {
+		8D72C51738C63B69753F339A233BC3D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9F0657A1828983E651EF9A642FC11DC7 /* Pods-BubbleTagView_Example.release.xcconfig */;
 			buildSettings = {
@@ -1116,19 +665,37 @@
 			};
 			name = Release;
 		};
-		A26EE98376C32742CF0D00DF10914C54 /* Release */ = {
+		D6E09DA884AD89C7463E961B968C749A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 036493EFFC06327569605F3698026097 /* BubbleTagView.xcconfig */;
+			baseConfigurationReference = 29750A3841FBD97CA766074E8C5B5F41 /* Pods-BubbleTagView_Tests.release.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = BubbleTagView;
+				INFOPLIST_FILE = "Target Support Files/Pods-BubbleTagView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BubbleTagView_Tests/Pods-BubbleTagView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BubbleTagView_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		A428C3495F3619542B1870397A310D2B /* Release */ = {
+		DF90F2D159447A7374DB21F0AEFBA5C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 036493EFFC06327569605F3698026097 /* BubbleTagView.xcconfig */;
 			buildSettings = {
@@ -1155,9 +722,30 @@
 			};
 			name = Release;
 		};
+		EBA231340E0F5751B8822AFA68599C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 036493EFFC06327569605F3698026097 /* BubbleTagView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BubbleTagView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		008E28F19102A5BFFF889469248D1091 /* Build configuration list for PBXNativeTarget "Pods-BubbleTagView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43652AF1974553A8B5D726EBEECE76D1 /* Debug */,
+				D6E09DA884AD89C7463E961B968C749A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1167,56 +755,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2DA8ED455823BC80C99F33E24B345077 /* Build configuration list for PBXNativeTarget "BubbleTagView-BubbleTagView" */ = {
+		2FD0BAEA76753FCD5AEBCAE13527EBB4 /* Build configuration list for PBXNativeTarget "BubbleTagView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				08FFB57ABBC06C27A8D0AE187740655A /* Debug */,
-				A26EE98376C32742CF0D00DF10914C54 /* Release */,
+				5AD4985B6510C36039466286869F8F63 /* Debug */,
+				DF90F2D159447A7374DB21F0AEFBA5C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F8E6E7E8C1CB868936A7C16A83424FA /* Build configuration list for PBXNativeTarget "Pods-BubbleTagView_Example" */ = {
+		68ADB9A0302974BC73F6C52279BD1502 /* Build configuration list for PBXNativeTarget "BubbleTagView-BubbleTagView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67FEB87CCAFDB2A0B1B0AF5FAE5534B8 /* Debug */,
-				96236A104FB28EAE9C6491088128A2F9 /* Release */,
+				377D2636409D7DC5C7B7CE92F1245666 /* Debug */,
+				EBA231340E0F5751B8822AFA68599C69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83B06C5DDF8DAF80664D5FEA9CEA9D51 /* Build configuration list for PBXNativeTarget "BubbleTagView" */ = {
+		DEB2F16A8F699FA192B7FEFFA53B0A20 /* Build configuration list for PBXNativeTarget "Pods-BubbleTagView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BB1B1BDB3B7F3D2F3E14A4D7654391B /* Debug */,
-				A428C3495F3619542B1870397A310D2B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		97D9929023CFBAE3913F7A6528AC36A8 /* Build configuration list for PBXNativeTarget "Pods-BubbleTagView_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				82A16781D7A6678CF1945A33ABE0D8FE /* Debug */,
-				0EF5B915E4EA71EF5F27430D31FC7DBB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F2F352D70D3919EA1497E0524B8F53BB /* Build configuration list for PBXNativeTarget "FSQCollectionViewAlignedLayout" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				193E47083BFBD4E392117F5D57F73113 /* Debug */,
-				13446EC3FC9BF418CB3A9EA2B8E6AE45 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FAC2CC59904E8AE57FA08D455EF6F66A /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1FED670CD062ADD22A887D31B418DDF8 /* Debug */,
-				373182AF2811DB15A2A5236D9528F00D /* Release */,
+				7512087236259A7BE6302A37D99B8EDB /* Debug */,
+				8D72C51738C63B69753F339A233BC3D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

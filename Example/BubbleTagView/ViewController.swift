@@ -16,25 +16,15 @@ class ViewController: UIViewController, BubbleTagViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let items =  ["Cultura","Food","Sport","Travel"]
+        let items =  ["Travel","Super long tag","Cultura","Food","Sport"]
         
         bubbleTagView.bubbleDelegate = self
-        bubbleTagView.setHorizontalAlignment(.Center)
-        bubbleTagView.cellColor = UIColor.greenColor()
-        bubbleTagView.cellBorderColor = UIColor.blueColor()
-        bubbleTagView.fontColor = UIColor.blueColor()
-
         bubbleTagView.allowsMultipleSelection = true
-        
-        bubbleTagView.setTags(items)        
-
-        bubbleTagView.insets = UIEdgeInsetsMake(20,20,20,20)
-        
-    
+        bubbleTagView.setTags(items)
     }
     
     @IBAction func useCustomizedCells(sender: AnyObject) {
-        let cellConfiguration = BubbleTagViewCellConfiguration(cellColor: UIColor.lightGrayColor(), font: UIFont.systemFontOfSize(10), fontColor: UIColor.darkGrayColor(), cornerRadius: 2, insets: UIEdgeInsetsMake(0, 5, 0, 5))
+        let cellConfiguration = BubbleTagViewCellConfiguration(cellColor: UIColor.blackColor(), font: UIFont.boldSystemFontOfSize(10), fontColor: UIColor.whiteColor(), insets: UIEdgeInsetsMake(0, 0, 0, 0), cornerRadius: 2.0)
         self.bubbleTagView.cellConfiguration = cellConfiguration
     }
 

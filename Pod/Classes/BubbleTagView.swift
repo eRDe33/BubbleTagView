@@ -7,13 +7,6 @@
 //
 
 import UIKit
-import FSQCollectionViewAlignedLayout
-
-public enum HorizontalAlignment {
-    case Left
-    case Center
-    case Right
-}
 
 public protocol BubbleTagViewDelegate {
     
@@ -29,51 +22,28 @@ extension BubbleTagViewDelegate {
 }
 
 
-@IBDesignable public class BubbleTagView: UICollectionView, UICollectionViewDelegate, UICollectionViewDataSource {
-
-    public var cellConfiguration: BubbleTagViewCellConfiguration? {
+@IBDesignable public class BubbleTagView: UICollectionView, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+    
+    public var cellConfiguration: BubbleTagViewCellConfiguration = BubbleTagViewCellConfiguration(cellColor: UIColor.lightGrayColor(), font: UIFont.systemFontOfSize(10), fontColor: UIColor.blackColor()) {
         willSet(cellConfiguration) {
-            if let newInsets = cellConfiguration?.insets {
-                self.sizingCell.insets = newInsets
-            }
-            
             self.reloadData()
+            self.collectionViewLayout.invalidateLayout()
+            self.invalidateIntrinsicContentSize()
         }
     }
     
     public var bubbleDelegate : BubbleTagViewDelegate?
     var items:[String] =  []
-    var hAlignment:FSQCollectionViewHorizontalAlignment = FSQCollectionViewHorizontalAlignment.Center
     private var sizingCell: BubbleTagViewCell!
-    
-    public var cellColor : UIColor = BubbleTagViewConfiguration.cellBackgroundColor
-    public var font:UIFont = BubbleTagViewConfiguration.cellFont
-    public var fontColor:UIColor = BubbleTagViewConfiguration.cellFontColor
-    public var cellBorderColor : UIColor?
-    
-    public var selectedFont : UIFont?  
-    public var selectedFontColor: UIColor?
-    public var selectedCellColor: UIColor? 
-    public var selectedCellBorderColor : UIColor?
-    public var insets : UIEdgeInsets? {
-        
-        willSet(newInsets) {
-            if let newInsets = newInsets {
-                self.sizingCell.insets = newInsets
-                self.reloadData()
-            }
-        }
-        
-    }
     
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        self.collectionViewLayout = FSQCollectionViewAlignedLayout()
+        self.collectionViewLayout = UICollectionViewFlowLayout()
         self.customInit()
     }
     
     override init(frame: CGRect, collectionViewLayout layout: UICollectionViewLayout) {
-        super.init(frame: frame, collectionViewLayout: FSQCollectionViewAlignedLayout())
+        super.init(frame: frame, collectionViewLayout: layout)
         self.customInit()
     }
     
@@ -84,9 +54,9 @@ extension BubbleTagViewDelegate {
         self.delegate = self
         self.backgroundColor = UIColor.clearColor()
     }
-
+    
     // MARK: - Designable
-
+    
     public override func prepareForInterfaceBuilder() {
         self.setTags(["hashtag1", "hashtag2", "hashtag3"])
     }
@@ -96,7 +66,7 @@ extension BubbleTagViewDelegate {
         
         self.items = []
         for tag in tags where tag != ""{
-                self.items.append(tag)
+            self.items.append(tag)
         }
         
         CATransaction.begin()
@@ -108,55 +78,44 @@ extension BubbleTagViewDelegate {
         self.reloadData() // Reload collectionView
         CATransaction.commit()
     }
-    
-    public func setCellCollor(color:UIColor) {
-        cellColor = color
-        self.reloadData()
-    }
-    
-    public func setHorizontalAlignment(horizontalAlignment: HorizontalAlignment){
-        switch horizontalAlignment {
-        case .Left:
-            hAlignment = FSQCollectionViewHorizontalAlignment.Left
-        case .Right:
-            hAlignment = FSQCollectionViewHorizontalAlignment.Right
-        case .Center:
-            hAlignment = FSQCollectionViewHorizontalAlignment.Center
-        }
-        self.reloadData()
-    }
-    
-    public func setFontForCel(font: UIFont) {
-        self.font = font
-    }
+
     
     //MARK: -layout attributes
-    func collectionView(collectionView: UICollectionView!, layout collectionViewLayout: FSQCollectionViewAlignedLayout!, sizeForItemAtIndexPath indexPath: NSIndexPath!, remainingLineSpace: CGFloat) -> CGSize {
+//    func collectionView(collectionView: UICollectionView!, layout collectionViewLayout: FSQCollectionViewAlignedLayout!, sizeForItemAtIndexPath indexPath: NSIndexPath!, remainingLineSpace: CGFloat) -> CGSize {
+//        let item = self.items[indexPath.item]
+//        self.sizingCell.setText(item)
+//        let size = self.sizingCell.contentView.systemLayoutSizeFittingSize(UILayoutFittingCompressedSize)
+//        let maximumWidth = CGRectGetWidth(collectionView.bounds)
+//        
+//        return CGSizeMake(min(size.width, maximumWidth),  size.height)
+//    }
+//    
+//    
+//    func collectionView(collectionView: UICollectionView!, layout collectionViewLayout: FSQCollectionViewAlignedLayout!, attributesForSectionAtIndex sectionIndex: Int) -> FSQCollectionViewAlignedLayoutSectionAttributes! {
+//        
+//        let vAlignment:FSQCollectionViewVerticalAlignment = FSQCollectionViewVerticalAlignment.Center;
+//        return FSQCollectionViewAlignedLayoutSectionAttributes.withHorizontalAlignment(hAlignment, verticalAlignment: vAlignment)
+//    }
+//    
+//    func collectionView(collectionView: UICollectionView!, layout collectionViewLayout: FSQCollectionViewAlignedLayout!, attributesForCellAtIndexPath indexPath: NSIndexPath!) -> FSQCollectionViewAlignedLayoutCellAttributes! {
+//        return collectionViewLayout.defaultCellAttributes
+//    }
+
+    public func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
         let item = self.items[indexPath.item]
         self.sizingCell.setText(item)
         let size = self.sizingCell.contentView.systemLayoutSizeFittingSize(UILayoutFittingCompressedSize)
         let maximumWidth = CGRectGetWidth(collectionView.bounds)
-
-        return CGSizeMake(min(size.width, maximumWidth),  size.height)
-    }
-    
-    
-    func collectionView(collectionView: UICollectionView!, layout collectionViewLayout: FSQCollectionViewAlignedLayout!, attributesForSectionAtIndex sectionIndex: Int) -> FSQCollectionViewAlignedLayoutSectionAttributes! {
-        
-        let vAlignment:FSQCollectionViewVerticalAlignment = FSQCollectionViewVerticalAlignment.Center;
-        return FSQCollectionViewAlignedLayoutSectionAttributes.withHorizontalAlignment(hAlignment, verticalAlignment: vAlignment)
-    }
-    
-    func collectionView(collectionView: UICollectionView!, layout collectionViewLayout: FSQCollectionViewAlignedLayout!, attributesForCellAtIndexPath indexPath: NSIndexPath!) -> FSQCollectionViewAlignedLayoutCellAttributes! {
-        return collectionViewLayout.defaultCellAttributes
+     
+        return CGSizeMake(min(size.width+self.cellConfiguration.insets.left+self.cellConfiguration.insets.right, maximumWidth), size.height+self.cellConfiguration.insets.bottom+self.cellConfiguration.insets.top)
     }
     
     // MARK:- Autolayout
+    
     override public func intrinsicContentSize() -> CGSize {
-        let size = (self.collectionViewLayout as! FSQCollectionViewAlignedLayout).collectionViewContentSize()
+        let size = (self.collectionViewLayout as! UICollectionViewFlowLayout).collectionViewContentSize()
         return CGSizeMake(CGRectGetWidth(self.bounds),  size.height)
     }
-    
     
     private func invalidateIntrinsicContentSize(completionBlock: (() -> ())?) {
         
@@ -176,37 +135,9 @@ extension BubbleTagViewDelegate {
     
     public func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("TagCell", forIndexPath: indexPath) as! BubbleTagViewCell
-       
-        if let cellConfiguration = self.cellConfiguration {
-            cell.configurateCell(cellConfiguration)
-        } else {
-            cell.notSelectedFont = font
-            
-            if let selectedFont = selectedFont {
-                cell.selectedFont = selectedFont
-            }
-            
-            cell.notSelectedColor = cellColor
-            
-            if let color = selectedCellColor {
-                cell.selectedColor = color
-            }
-            
-            cell.notSelectedFontColor = fontColor
-            
-            if let color = selectedFontColor {
-                cell.selectedFontColor = color
-            }
-            
-            cell.notSelectedBorderColor = cellBorderColor
-            cell.selectedBorderColor = selectedCellBorderColor
-            
-            if let insets = insets {
-                cell.insets = insets
-            }
-        }
         
         cell.tagLabel.text = self.items[indexPath.row]
+        cell.configurateCell(cellConfiguration)
 
         return cell
     }
@@ -231,6 +162,4 @@ extension BubbleTagViewDelegate {
         bubbleDelegate?.bubbleTagView(self, didDeselectTagAtIndexPath: indexPath)
     }
     
-    
-
 }
