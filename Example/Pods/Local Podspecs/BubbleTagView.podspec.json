@@ -22,5 +22,10 @@
     "BubbleTagView": [
       "Pod/Assets/*.png"
     ]
+  },
+  "dependencies": {
+    "UICollectionViewLeftAlignedLayout": [
+
+    ]
   }
 }

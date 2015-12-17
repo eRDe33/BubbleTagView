@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import UICollectionViewLeftAlignedLayout
 
 public protocol BubbleTagViewDelegate {
     
@@ -22,11 +23,25 @@ extension BubbleTagViewDelegate {
 }
 
 
-@IBDesignable public class BubbleTagView: UICollectionView, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+@IBDesignable public class BubbleTagView: UICollectionView, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateLeftAlignedLayout {
     
     public var cellConfiguration: BubbleTagViewCellConfiguration = BubbleTagViewCellConfiguration(cellColor: UIColor.lightGrayColor(), font: UIFont.systemFontOfSize(10), fontColor: UIColor.blackColor()) {
         willSet(cellConfiguration) {
             self.reloadData()
+            self.collectionViewLayout.invalidateLayout()
+            self.invalidateIntrinsicContentSize()
+        }
+    }
+    
+    public var minimumLineSpacing : CGFloat = 3.0 {
+        willSet(minimumLineSpacing) {
+            self.collectionViewLayout.invalidateLayout()
+            self.invalidateIntrinsicContentSize()
+        }
+    }
+
+    public var minimumInteritemSpacing : CGFloat = 3.0 {
+        willSet(minimumIteritemSpacing) {
             self.collectionViewLayout.invalidateLayout()
             self.invalidateIntrinsicContentSize()
         }
@@ -38,12 +53,12 @@ extension BubbleTagViewDelegate {
     
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        self.collectionViewLayout = UICollectionViewFlowLayout()
+        self.collectionViewLayout = UICollectionViewLeftAlignedLayout()
         self.customInit()
     }
     
     override init(frame: CGRect, collectionViewLayout layout: UICollectionViewLayout) {
-        super.init(frame: frame, collectionViewLayout: layout)
+        super.init(frame: frame, collectionViewLayout: UICollectionViewLeftAlignedLayout())
         self.customInit()
     }
     
@@ -81,26 +96,15 @@ extension BubbleTagViewDelegate {
 
     
     //MARK: -layout attributes
-//    func collectionView(collectionView: UICollectionView!, layout collectionViewLayout: FSQCollectionViewAlignedLayout!, sizeForItemAtIndexPath indexPath: NSIndexPath!, remainingLineSpace: CGFloat) -> CGSize {
-//        let item = self.items[indexPath.item]
-//        self.sizingCell.setText(item)
-//        let size = self.sizingCell.contentView.systemLayoutSizeFittingSize(UILayoutFittingCompressedSize)
-//        let maximumWidth = CGRectGetWidth(collectionView.bounds)
-//        
-//        return CGSizeMake(min(size.width, maximumWidth),  size.height)
-//    }
-//    
-//    
-//    func collectionView(collectionView: UICollectionView!, layout collectionViewLayout: FSQCollectionViewAlignedLayout!, attributesForSectionAtIndex sectionIndex: Int) -> FSQCollectionViewAlignedLayoutSectionAttributes! {
-//        
-//        let vAlignment:FSQCollectionViewVerticalAlignment = FSQCollectionViewVerticalAlignment.Center;
-//        return FSQCollectionViewAlignedLayoutSectionAttributes.withHorizontalAlignment(hAlignment, verticalAlignment: vAlignment)
-//    }
-//    
-//    func collectionView(collectionView: UICollectionView!, layout collectionViewLayout: FSQCollectionViewAlignedLayout!, attributesForCellAtIndexPath indexPath: NSIndexPath!) -> FSQCollectionViewAlignedLayoutCellAttributes! {
-//        return collectionViewLayout.defaultCellAttributes
-//    }
-
+    
+    public func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAtIndex section: Int) -> CGFloat {
+        return self.minimumLineSpacing
+    }
+    
+    public func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAtIndex section: Int) -> CGFloat {
+        return self.minimumInteritemSpacing
+    }
+    
     public func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
         let item = self.items[indexPath.item]
         self.sizingCell.setText(item)

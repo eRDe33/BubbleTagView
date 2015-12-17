@@ -1,5 +1,7 @@
 PODS:
-  - BubbleTagView (0.1.5)
+  - BubbleTagView (0.1.5):
+    - UICollectionViewLeftAlignedLayout
+  - UICollectionViewLeftAlignedLayout (1.0.1)
 
 DEPENDENCIES:
   - BubbleTagView (from `../`)
@@ -9,6 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  BubbleTagView: a00b53745242f45549c47edf970f17480b891b0f
+  BubbleTagView: 95d06967345c7eaaebfff97e652c5fcd089d196e
+  UICollectionViewLeftAlignedLayout: 6d10790db3e07958d91bd910d8b8e9dad952b1ef
 
 COCOAPODS: 0.39.0
