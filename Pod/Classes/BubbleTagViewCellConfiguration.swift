@@ -21,7 +21,7 @@ public class BubbleTagViewCellConfiguration {
     public var selectedBorderColor: UIColor?
     
     public var cornerRadius: CGFloat?
-    public var insets: UIEdgeInsets = UIEdgeInsetsMake(0, 5, 0, 5)
+    public var insets: UIEdgeInsets = UIEdgeInsetsMake(5, 10, 5, 10)
     
     public init(cellColor: UIColor, font: UIFont, fontColor: UIColor) {
         self.cellColor = cellColor

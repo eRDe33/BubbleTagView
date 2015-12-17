@@ -24,7 +24,7 @@ class ViewController: UIViewController, BubbleTagViewDelegate {
     }
     
     @IBAction func useCustomizedCells(sender: AnyObject) {
-        let cellConfiguration = BubbleTagViewCellConfiguration(cellColor: UIColor.blackColor(), font: UIFont.boldSystemFontOfSize(10), fontColor: UIColor.whiteColor(), insets: UIEdgeInsetsMake(0, 0, 0, 0), cornerRadius: 2.0)
+        let cellConfiguration = BubbleTagViewCellConfiguration(cellColor: UIColor.blackColor(), font: UIFont.boldSystemFontOfSize(10), fontColor: UIColor.whiteColor(), insets: UIEdgeInsetsMake(4, 5, 4, 5), cornerRadius: 2.0)
         self.bubbleTagView.cellConfiguration = cellConfiguration
     }
 

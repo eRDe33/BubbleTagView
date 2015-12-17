@@ -27,6 +27,7 @@ extension BubbleTagViewDelegate {
     
     public var cellConfiguration: BubbleTagViewCellConfiguration = BubbleTagViewCellConfiguration(cellColor: UIColor.lightGrayColor(), font: UIFont.systemFontOfSize(10), fontColor: UIColor.blackColor()) {
         willSet(cellConfiguration) {
+            self.sizingLabel.font = cellConfiguration.font
             self.reloadData()
             self.collectionViewLayout.invalidateLayout()
             self.invalidateIntrinsicContentSize()
@@ -48,8 +49,10 @@ extension BubbleTagViewDelegate {
     }
     
     public var bubbleDelegate : BubbleTagViewDelegate?
+    
     var items:[String] =  []
-    private var sizingCell: BubbleTagViewCell!
+    
+    private var sizingLabel: UILabel!
     
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -63,11 +66,15 @@ extension BubbleTagViewDelegate {
     }
     
     func customInit() {
-        self.sizingCell = BubbleTagViewCell(frame: CGRectMake(0, 0, 100, 50))
+        self.sizingLabel = UILabel(frame: CGRectMake(0, 0, 100, 50))
+        self.sizingLabel.font = self.cellConfiguration.font
         self.registerClass(BubbleTagViewCell.self, forCellWithReuseIdentifier: "TagCell")
         self.dataSource = self
         self.delegate = self
         self.backgroundColor = UIColor.clearColor()
+        self.scrollEnabled = false
+        self.showsHorizontalScrollIndicator = false
+        self.showsVerticalScrollIndicator = false
     }
     
     // MARK: - Designable
@@ -107,10 +114,11 @@ extension BubbleTagViewDelegate {
     
     public func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
         let item = self.items[indexPath.item]
-        self.sizingCell.setText(item)
-        let size = self.sizingCell.contentView.systemLayoutSizeFittingSize(UILayoutFittingCompressedSize)
+        self.sizingLabel.text = item
+        self.sizingLabel.sizeToFit()
         let maximumWidth = CGRectGetWidth(collectionView.bounds)
-     
+        let size = self.sizingLabel.bounds.size
+    
         return CGSizeMake(min(size.width+self.cellConfiguration.insets.left+self.cellConfiguration.insets.right, maximumWidth), size.height+self.cellConfiguration.insets.bottom+self.cellConfiguration.insets.top)
     }
     

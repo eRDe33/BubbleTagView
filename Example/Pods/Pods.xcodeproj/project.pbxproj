@@ -7,129 +7,164 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10241E59118761DFF5EB055F2B044E66 /* Pods-BubbleTagView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2301777CCA85F2DB42250D5221F78211 /* Pods-BubbleTagView_Tests-dummy.m */; };
-		12D32EFEEBB13696BB134D0C34AE0E1E /* BubbleTagView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EBF26A8F570F07F6633227120671BA87 /* BubbleTagView.bundle */; };
-		208AA86AB8EE9A473557AEC322AA80A2 /* Pods-BubbleTagView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 529D6A0C2A4A306DD1B5F3CE88FD0A9C /* Pods-BubbleTagView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		20D088D20DD605D2B31D47F07F7C0AD8 /* BubbleTagViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD6FF1D994D3AF282568DDE8FF28A88 /* BubbleTagViewCell.swift */; };
-		276A0D10EDF66EDF17C0A7F8BF28EEE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		32AF90C0BFF282405FE34B5B22C89907 /* Pods-BubbleTagView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC651B82454A3A0BE78F1A72BFD51497 /* Pods-BubbleTagView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		418AEACE2EEA8302047CF8A737398FC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		4A53068872178BADABF13C87DECE6D92 /* BubbleTagView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E84547D052752E534E8C3F3411F38B /* BubbleTagView-dummy.m */; };
-		82B31075C4D1669286A61646D399C58A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		8CF3CF41957E94F5E33E64F56DFACD62 /* Pods-BubbleTagView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 599BD404E10FDDD7293431BB88ED7A9E /* Pods-BubbleTagView_Example-dummy.m */; };
-		B97E1C8CDA159E221360EACFA286932A /* BubbleTagViewCellConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB6A237794D9E21359277B6AD694D18 /* BubbleTagViewCellConfiguration.swift */; };
-		E2A1AB1D54A66AF764661C50CAB95F7B /* BubbleTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E0D3B1614608A1A02344AEAB06082 /* BubbleTagView.swift */; };
-		F55F25747FD3C3EC78C232FC4C7F8634 /* BubbleTagView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C44162E234CBCD14CCD2DA1E5540E68 /* BubbleTagView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CB40A8E9051DA7C37970F06379E8ED3 /* BubbleTagView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E84547D052752E534E8C3F3411F38B /* BubbleTagView-dummy.m */; };
+		171CF24202E027FFB13360C2EF607602 /* BubbleTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A55CCEA4035CCED9AC20B8CB8C09C6 /* BubbleTagView.swift */; };
+		18149B8ACC5B89CD45BD392531A19CB7 /* Pods-BubbleTagView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 599BD404E10FDDD7293431BB88ED7A9E /* Pods-BubbleTagView_Example-dummy.m */; };
+		1E9EA2404E338E9A36E581EAF08B538D /* BubbleTagViewCellConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61F22D4E804C45F43948EF16EA788B /* BubbleTagViewCellConfiguration.swift */; };
+		2CD32F50C363ECD5044DE5BA0F59B6FD /* Pods-BubbleTagView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 529D6A0C2A4A306DD1B5F3CE88FD0A9C /* Pods-BubbleTagView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F4878902726713DAEE4C0B8997B93CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCACF544D003CDB29AE64E82CC17FD2 /* Foundation.framework */; };
+		44A623BFFFD4696315C1ED4BB12CD294 /* Pods-BubbleTagView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2301777CCA85F2DB42250D5221F78211 /* Pods-BubbleTagView_Tests-dummy.m */; };
+		4D364D4C7C5138F3340582036DA13FA5 /* BubbleTagView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C44162E234CBCD14CCD2DA1E5540E68 /* BubbleTagView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AE749831ECD3CB3E38D6F2B94FBA0A9 /* UICollectionViewLeftAlignedLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 621816FD7AF5AFAD3F52221F1095A169 /* UICollectionViewLeftAlignedLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D95553A9AA843F34354B7971B669EB2 /* BubbleTagViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF421236F6042CFC916262BE954D16A /* BubbleTagViewCell.swift */; };
+		8116234C3396AD3ECCE5DEBCBEF2FDF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCACF544D003CDB29AE64E82CC17FD2 /* Foundation.framework */; };
+		81BF7D9E798CDCA09F726F679FE8CE30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCACF544D003CDB29AE64E82CC17FD2 /* Foundation.framework */; };
+		963995259B4CAB8240C432F85D0479A0 /* UICollectionViewLeftAlignedLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = C7AF587A0D9F10A2270ED69EA1DDC3A1 /* UICollectionViewLeftAlignedLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		964C67DE29DB48E6BA70B4C35725D9F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCACF544D003CDB29AE64E82CC17FD2 /* Foundation.framework */; };
+		AA8A74C239344BCC8CD8045557DBC35B /* UICollectionViewLeftAlignedLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F60F38DC5315C8D87E4B1DF795C442 /* UICollectionViewLeftAlignedLayout.framework */; };
+		BFAF2687A08C8D397BB7AC164F737EA3 /* Pods-BubbleTagView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC651B82454A3A0BE78F1A72BFD51497 /* Pods-BubbleTagView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7B1E445FB34C20DCDF047FCD8D132FD /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5464D8616CD270F0126FE06EC1726 /* UICollectionViewLeftAlignedLayout.m */; };
+		E62E912CD94423339A22A95F9F3751DD /* UICollectionViewLeftAlignedLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68114B31A32562317AB57B6356078010 /* UICollectionViewLeftAlignedLayout-dummy.m */; };
+		E8434891EC73621820A1C4DD188EA02C /* BubbleTagView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6B3322E7E148B92CFD7B20BF6946482A /* BubbleTagView.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		29F2E6717547FAC5BBBE5C431CD8067C /* PBXContainerItemProxy */ = {
+		3BE943D7F6D3C2E1A09C2F01AD12F72F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 99CF6D69E3DDF5DEFBC06869983C717D;
-			remoteInfo = BubbleTagView;
+			remoteGlobalIDString = 06C311F8A0AEA3EDFEBF46415A0B33B4;
+			remoteInfo = UICollectionViewLeftAlignedLayout;
 		};
-		2B231A4024F16D045D26022360EE0B3A /* PBXContainerItemProxy */ = {
+		497B37E5A754262B6C80AB68290B85FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 99CF6D69E3DDF5DEFBC06869983C717D;
-			remoteInfo = BubbleTagView;
+			remoteGlobalIDString = 06C311F8A0AEA3EDFEBF46415A0B33B4;
+			remoteInfo = UICollectionViewLeftAlignedLayout;
 		};
-		57324DF7108F7F22DF7D9CE3AABDD007 /* PBXContainerItemProxy */ = {
+		8ABBD69506D8D2B6FB036F6E565287B7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CCAAD3116523EC98EEFE21A56D885F15;
+			remoteGlobalIDString = A0BC4DF899639994EF0CFC7B56D85061;
 			remoteInfo = "BubbleTagView-BubbleTagView";
+		};
+		9AF811C916A6DCA696DD63DC8768B9C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06C311F8A0AEA3EDFEBF46415A0B33B4;
+			remoteInfo = UICollectionViewLeftAlignedLayout;
+		};
+		E6726BD6565577D005A7E54383D32C74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2EEC691E838B49731CAFFFD35DB7785;
+			remoteInfo = BubbleTagView;
+		};
+		F336AAC8D6101D40026D9AE584409CEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2EEC691E838B49731CAFFFD35DB7785;
+			remoteInfo = BubbleTagView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		018F849684C4F73F4C68EE79833F2F19 /* Pods_BubbleTagView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BubbleTagView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		036493EFFC06327569605F3698026097 /* BubbleTagView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BubbleTagView.xcconfig; sourceTree = "<group>"; };
 		0E137C11EC54BD583C3771B166628082 /* BubbleTagView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BubbleTagView-prefix.pch"; sourceTree = "<group>"; };
 		0F4DDB6CD5C63D578C7F9EC4DC21E9AF /* Pods-BubbleTagView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BubbleTagView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		15816CD3FC4F807C0B89D72D22852501 /* Pods_BubbleTagView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BubbleTagView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		165AD7A27E761AC1855A128AAB6549F8 /* Pods-BubbleTagView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BubbleTagView_Tests.modulemap"; sourceTree = "<group>"; };
+		18C5464D8616CD270F0126FE06EC1726 /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UICollectionViewLeftAlignedLayout.m; path = UICollectionViewLeftAlignedLayout/UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
+		19B133D857463E66C59D449278185E75 /* UICollectionViewLeftAlignedLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = UICollectionViewLeftAlignedLayout.modulemap; sourceTree = "<group>"; };
+		1AF421236F6042CFC916262BE954D16A /* BubbleTagViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BubbleTagViewCell.swift; sourceTree = "<group>"; };
 		1C44162E234CBCD14CCD2DA1E5540E68 /* BubbleTagView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BubbleTagView-umbrella.h"; sourceTree = "<group>"; };
+		207EA247CFB246BE2BAECF0A37A1441C /* UICollectionViewLeftAlignedLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewLeftAlignedLayout-prefix.pch"; sourceTree = "<group>"; };
+		20BF19219A75FF8519EA7FE3F4E26757 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2301777CCA85F2DB42250D5221F78211 /* Pods-BubbleTagView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BubbleTagView_Tests-dummy.m"; sourceTree = "<group>"; };
 		27FC2FC102345B6D17C3A57704AB7329 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28BC473303E2D82B7EFAF1D6FF5D41E9 /* BubbleTagView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BubbleTagView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29750A3841FBD97CA766074E8C5B5F41 /* Pods-BubbleTagView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BubbleTagView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2D867830BAEE3BF7BC1A83BF5CA9D305 /* Pods-BubbleTagView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BubbleTagView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		320D7E54FB593C1CDD2E0AAB5356594A /* UICollectionViewLeftAlignedLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UICollectionViewLeftAlignedLayout.xcconfig; sourceTree = "<group>"; };
 		495817951D9D676BC630F8101C02FAE1 /* Pods-BubbleTagView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BubbleTagView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		529D6A0C2A4A306DD1B5F3CE88FD0A9C /* Pods-BubbleTagView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BubbleTagView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		56E84547D052752E534E8C3F3411F38B /* BubbleTagView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BubbleTagView-dummy.m"; sourceTree = "<group>"; };
+		57E767708169228C7C854B59C89D2B55 /* UICollectionViewLeftAlignedLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UICollectionViewLeftAlignedLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		599BD404E10FDDD7293431BB88ED7A9E /* Pods-BubbleTagView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BubbleTagView_Example-dummy.m"; sourceTree = "<group>"; };
+		5A8AE76113946F90FD157D6B8FFEB5B0 /* Pods_BubbleTagView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BubbleTagView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60B7D12809E2A5FE47D36AB019BDD895 /* Pods-BubbleTagView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BubbleTagView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		621816FD7AF5AFAD3F52221F1095A169 /* UICollectionViewLeftAlignedLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewLeftAlignedLayout-umbrella.h"; sourceTree = "<group>"; };
+		68114B31A32562317AB57B6356078010 /* UICollectionViewLeftAlignedLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewLeftAlignedLayout-dummy.m"; sourceTree = "<group>"; };
+		6B3322E7E148B92CFD7B20BF6946482A /* BubbleTagView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubbleTagView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		85A2946BC882E18B4855CAB59F734C7E /* Pods-BubbleTagView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BubbleTagView_Example-resources.sh"; sourceTree = "<group>"; };
+		8A61F22D4E804C45F43948EF16EA788B /* BubbleTagViewCellConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BubbleTagViewCellConfiguration.swift; sourceTree = "<group>"; };
 		8B4E1D394F2AF6F23FA8A2E5DD185CE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F0657A1828983E651EF9A642FC11DC7 /* Pods-BubbleTagView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BubbleTagView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ADC31DAA84E81DD60F0061B3E4B9F694 /* Pods-BubbleTagView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BubbleTagView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BC651B82454A3A0BE78F1A72BFD51497 /* Pods-BubbleTagView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BubbleTagView_Example-umbrella.h"; sourceTree = "<group>"; };
-		BFD6FF1D994D3AF282568DDE8FF28A88 /* BubbleTagViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BubbleTagViewCell.swift; sourceTree = "<group>"; };
-		CE4E0D3B1614608A1A02344AEAB06082 /* BubbleTagView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BubbleTagView.swift; sourceTree = "<group>"; };
+		C1A55CCEA4035CCED9AC20B8CB8C09C6 /* BubbleTagView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BubbleTagView.swift; sourceTree = "<group>"; };
+		C1F60F38DC5315C8D87E4B1DF795C442 /* UICollectionViewLeftAlignedLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UICollectionViewLeftAlignedLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7AF587A0D9F10A2270ED69EA1DDC3A1 /* UICollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UICollectionViewLeftAlignedLayout.h; path = UICollectionViewLeftAlignedLayout/UICollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
 		D6EB155E768FEB49B3868F12747E41D7 /* Pods-BubbleTagView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BubbleTagView_Tests-resources.sh"; sourceTree = "<group>"; };
 		D76873CA7E98B18CFD9294C68F4FDB5D /* Pods-BubbleTagView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BubbleTagView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DFCACF544D003CDB29AE64E82CC17FD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E22BF50E4D6EEB2392CE3B7818F06895 /* Pods-BubbleTagView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BubbleTagView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E28D04E45C6CBDBAEDAF95C6AD9BE4B7 /* BubbleTagView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BubbleTagView.modulemap; sourceTree = "<group>"; };
 		E5E7EA67EB7754EB45A0CB88A7D7F452 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7D0CAD0A145F7FEF57B6C2D3B68A9C4 /* Pods-BubbleTagView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BubbleTagView_Example.modulemap"; sourceTree = "<group>"; };
-		EBB6A237794D9E21359277B6AD694D18 /* BubbleTagViewCellConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BubbleTagViewCellConfiguration.swift; sourceTree = "<group>"; };
-		EBF26A8F570F07F6633227120671BA87 /* BubbleTagView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubbleTagView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED8B2AE0BC8458DE68CDBDAA1828EB58 /* Pods_BubbleTagView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BubbleTagView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A092DB20E80A205332D0267ED03D56 /* Pods-BubbleTagView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BubbleTagView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF6F7888107B603CE620E36EA1180247 /* BubbleTagView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BubbleTagView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		01494E16DE5D7AFF042429F2757F9D14 /* Frameworks */ = {
+		09A51D0960B74A4971FB4A85B19B16EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964C67DE29DB48E6BA70B4C35725D9F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC53A25928AE9CE22E5A965270BFE78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8116234C3396AD3ECCE5DEBCBEF2FDF0 /* Foundation.framework in Frameworks */,
+				AA8A74C239344BCC8CD8045557DBC35B /* UICollectionViewLeftAlignedLayout.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2956DA921F50A06FE933FF40DDB206B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4878902726713DAEE4C0B8997B93CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C100E8555405493C81597ABE5C5ADE1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3AA251BD4CE308B36D5DC42314301DD7 /* Frameworks */ = {
+		B9F20EB565D06A64E61B7BC39A26C0B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				276A0D10EDF66EDF17C0A7F8BF28EEE4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5B769133F9CD425661D25FF900ACD3DE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				82B31075C4D1669286A61646D399C58A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6C34EC3B89559EBC9CE1697A4F46E202 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				418AEACE2EEA8302047CF8A737398FC2 /* Foundation.framework in Frameworks */,
+				81BF7D9E798CDCA09F726F679FE8CE30 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		10394F0B5FFBFE9153158102FE8162B9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EBF26A8F570F07F6633227120671BA87 /* BubbleTagView.bundle */,
-				28BC473303E2D82B7EFAF1D6FF5D41E9 /* BubbleTagView.framework */,
-				15816CD3FC4F807C0B89D72D22852501 /* Pods_BubbleTagView_Example.framework */,
-				ED8B2AE0BC8458DE68CDBDAA1828EB58 /* Pods_BubbleTagView_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		1343A8FCE3624E6DBE629F8AC0A0DACA /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,24 +174,30 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		44C63CB0E4C055C142581BCD1621A3FE /* Classes */ = {
+		3F453253B5FA5BDF719C76BE6F9E541F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				CE4E0D3B1614608A1A02344AEAB06082 /* BubbleTagView.swift */,
-				BFD6FF1D994D3AF282568DDE8FF28A88 /* BubbleTagViewCell.swift */,
-				EBB6A237794D9E21359277B6AD694D18 /* BubbleTagViewCellConfiguration.swift */,
+				A62EF3543C6EC2C84A8BFD929D952739 /* Classes */,
 			);
-			path = Classes;
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		48CBEB31B3F03CE9357A9342572035F9 /* BubbleTagView */ = {
 			isa = PBXGroup;
 			children = (
-				B47005C465F09217B06E8D538B6D98DB /* Pod */,
+				3F453253B5FA5BDF719C76BE6F9E541F /* Pod */,
 				C6FAF9C3D8C5A171281C1330727FC528 /* Support Files */,
 			);
 			name = BubbleTagView;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		5C1C67215CC992CA55772E3A06F2D92C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E020B97696CE00A58D57A648F424B712 /* UICollectionViewLeftAlignedLayout */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		66FD3E298FE5271EB4CBBEDAAE307D07 /* Pods-BubbleTagView_Tests */ = {
@@ -182,8 +223,9 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				8B3186987649B1AEFFAF6BAF0354459B /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				10394F0B5FFBFE9153158102FE8162B9 /* Products */,
+				B568420A08E67677EB6982D78C771DB1 /* Frameworks */,
+				5C1C67215CC992CA55772E3A06F2D92C /* Pods */,
+				C56A4D3133B612EF0A15C45BDF57036E /* Products */,
 				1343A8FCE3624E6DBE629F8AC0A0DACA /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -196,28 +238,49 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		B47005C465F09217B06E8D538B6D98DB /* Pod */ = {
+		A62EF3543C6EC2C84A8BFD929D952739 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				44C63CB0E4C055C142581BCD1621A3FE /* Classes */,
+				C1A55CCEA4035CCED9AC20B8CB8C09C6 /* BubbleTagView.swift */,
+				1AF421236F6042CFC916262BE954D16A /* BubbleTagViewCell.swift */,
+				8A61F22D4E804C45F43948EF16EA788B /* BubbleTagViewCellConfiguration.swift */,
 			);
-			path = Pod;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		B568420A08E67677EB6982D78C771DB1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+				C1F60F38DC5315C8D87E4B1DF795C442 /* UICollectionViewLeftAlignedLayout.framework */,
+				FAAD803B6FB1D1149C83E324A0590FD9 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+		BFF2DBD594F99FC01C56398DB7B806B1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+				20BF19219A75FF8519EA7FE3F4E26757 /* Info.plist */,
+				19B133D857463E66C59D449278185E75 /* UICollectionViewLeftAlignedLayout.modulemap */,
+				320D7E54FB593C1CDD2E0AAB5356594A /* UICollectionViewLeftAlignedLayout.xcconfig */,
+				68114B31A32562317AB57B6356078010 /* UICollectionViewLeftAlignedLayout-dummy.m */,
+				207EA247CFB246BE2BAECF0A37A1441C /* UICollectionViewLeftAlignedLayout-prefix.pch */,
+				621816FD7AF5AFAD3F52221F1095A169 /* UICollectionViewLeftAlignedLayout-umbrella.h */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "../Target Support Files/UICollectionViewLeftAlignedLayout";
+			sourceTree = "<group>";
+		};
+		C56A4D3133B612EF0A15C45BDF57036E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B3322E7E148B92CFD7B20BF6946482A /* BubbleTagView.bundle */,
+				FF6F7888107B603CE620E36EA1180247 /* BubbleTagView.framework */,
+				5A8AE76113946F90FD157D6B8FFEB5B0 /* Pods_BubbleTagView_Example.framework */,
+				018F849684C4F73F4C68EE79833F2F19 /* Pods_BubbleTagView_Tests.framework */,
+				57E767708169228C7C854B59C89D2B55 /* UICollectionViewLeftAlignedLayout.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		C6FAF9C3D8C5A171281C1330727FC528 /* Support Files */ = {
@@ -232,6 +295,16 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/BubbleTagView";
+			sourceTree = "<group>";
+		};
+		E020B97696CE00A58D57A648F424B712 /* UICollectionViewLeftAlignedLayout */ = {
+			isa = PBXGroup;
+			children = (
+				C7AF587A0D9F10A2270ED69EA1DDC3A1 /* UICollectionViewLeftAlignedLayout.h */,
+				18C5464D8616CD270F0126FE06EC1726 /* UICollectionViewLeftAlignedLayout.m */,
+				BFF2DBD594F99FC01C56398DB7B806B1 /* Support Files */,
+			);
+			path = UICollectionViewLeftAlignedLayout;
 			sourceTree = "<group>";
 		};
 		E0BA7CA83AC4312A46BA8CA505222722 /* Pods-BubbleTagView_Example */ = {
@@ -252,98 +325,77 @@
 			path = "Target Support Files/Pods-BubbleTagView_Example";
 			sourceTree = "<group>";
 		};
+		FAAD803B6FB1D1149C83E324A0590FD9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DFCACF544D003CDB29AE64E82CC17FD2 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		077BC89090ABB948AB71C569FC0D9A97 /* Headers */ = {
+		23536BDDFF18804B06939490424D8DA3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F55F25747FD3C3EC78C232FC4C7F8634 /* BubbleTagView-umbrella.h in Headers */,
+				BFAF2687A08C8D397BB7AC164F737EA3 /* Pods-BubbleTagView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78BEAF4341E3E6B431FE0F6A7DEC869A /* Headers */ = {
+		356F96BD2A913BE9A57AE7DF13144F23 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				208AA86AB8EE9A473557AEC322AA80A2 /* Pods-BubbleTagView_Tests-umbrella.h in Headers */,
+				4D364D4C7C5138F3340582036DA13FA5 /* BubbleTagView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5175143A2F31B61E664C207C1EA5FD4 /* Headers */ = {
+		9A635FAADCE06F66B7F3D0DE30C4EB89 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32AF90C0BFF282405FE34B5B22C89907 /* Pods-BubbleTagView_Example-umbrella.h in Headers */,
+				2CD32F50C363ECD5044DE5BA0F59B6FD /* Pods-BubbleTagView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB049A673C5E04FCF7C6467E3B6D394C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE749831ECD3CB3E38D6F2B94FBA0A9 /* UICollectionViewLeftAlignedLayout-umbrella.h in Headers */,
+				963995259B4CAB8240C432F85D0479A0 /* UICollectionViewLeftAlignedLayout.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2C3DBCEA6B9F78752FDAF2846308E845 /* Pods-BubbleTagView_Tests */ = {
+		06C311F8A0AEA3EDFEBF46415A0B33B4 /* UICollectionViewLeftAlignedLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 008E28F19102A5BFFF889469248D1091 /* Build configuration list for PBXNativeTarget "Pods-BubbleTagView_Tests" */;
+			buildConfigurationList = 57535EFA35684C9CDB72666F508FC4D8 /* Build configuration list for PBXNativeTarget "UICollectionViewLeftAlignedLayout" */;
 			buildPhases = (
-				BFF200897CC1203FD54ED1E91295F48A /* Sources */,
-				6C34EC3B89559EBC9CE1697A4F46E202 /* Frameworks */,
-				78BEAF4341E3E6B431FE0F6A7DEC869A /* Headers */,
+				BF7799CB02361C0B41EAB72FA698B20A /* Sources */,
+				09A51D0960B74A4971FB4A85B19B16EC /* Frameworks */,
+				DB049A673C5E04FCF7C6467E3B6D394C /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				467577EAECE5B382C130152733F00D41 /* PBXTargetDependency */,
 			);
-			name = "Pods-BubbleTagView_Tests";
-			productName = "Pods-BubbleTagView_Tests";
-			productReference = ED8B2AE0BC8458DE68CDBDAA1828EB58 /* Pods_BubbleTagView_Tests.framework */;
+			name = UICollectionViewLeftAlignedLayout;
+			productName = UICollectionViewLeftAlignedLayout;
+			productReference = 57E767708169228C7C854B59C89D2B55 /* UICollectionViewLeftAlignedLayout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		99CF6D69E3DDF5DEFBC06869983C717D /* BubbleTagView */ = {
+		A0BC4DF899639994EF0CFC7B56D85061 /* BubbleTagView-BubbleTagView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FD0BAEA76753FCD5AEBCAE13527EBB4 /* Build configuration list for PBXNativeTarget "BubbleTagView" */;
+			buildConfigurationList = 07A9C3029F0F05016BDCF1E320A09BAF /* Build configuration list for PBXNativeTarget "BubbleTagView-BubbleTagView" */;
 			buildPhases = (
-				5DFF93EBCB19432FEEA4E4D619663F91 /* Sources */,
-				5B769133F9CD425661D25FF900ACD3DE /* Frameworks */,
-				7988AD122F1088EE9DED81F07AB563D3 /* Resources */,
-				077BC89090ABB948AB71C569FC0D9A97 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BF67D687D964DEB0E98213FA24E53783 /* PBXTargetDependency */,
-			);
-			name = BubbleTagView;
-			productName = BubbleTagView;
-			productReference = 28BC473303E2D82B7EFAF1D6FF5D41E9 /* BubbleTagView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B29E85F1241CABD640B7163BEF43F6C7 /* Pods-BubbleTagView_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DEB2F16A8F699FA192B7FEFFA53B0A20 /* Build configuration list for PBXNativeTarget "Pods-BubbleTagView_Example" */;
-			buildPhases = (
-				F90094D319035545E830890EB463709B /* Sources */,
-				3AA251BD4CE308B36D5DC42314301DD7 /* Frameworks */,
-				E5175143A2F31B61E664C207C1EA5FD4 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D77682484FABBCA814EB563CA26B5B4E /* PBXTargetDependency */,
-			);
-			name = "Pods-BubbleTagView_Example";
-			productName = "Pods-BubbleTagView_Example";
-			productReference = 15816CD3FC4F807C0B89D72D22852501 /* Pods_BubbleTagView_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CCAAD3116523EC98EEFE21A56D885F15 /* BubbleTagView-BubbleTagView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 68ADB9A0302974BC73F6C52279BD1502 /* Build configuration list for PBXNativeTarget "BubbleTagView-BubbleTagView" */;
-			buildPhases = (
-				E05471BDD1426E22AB0D32FF6FB19E27 /* Sources */,
-				01494E16DE5D7AFF042429F2757F9D14 /* Frameworks */,
-				F0132C5D9783C7D3BAB76A6D74BA098C /* Resources */,
+				950FD8D5E4DDA7B308CA34BBC33BB14F /* Sources */,
+				3C100E8555405493C81597ABE5C5ADE1 /* Frameworks */,
+				0EFC0AF1D22A1B46C5A9FA44C119BFE7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -351,8 +403,66 @@
 			);
 			name = "BubbleTagView-BubbleTagView";
 			productName = "BubbleTagView-BubbleTagView";
-			productReference = EBF26A8F570F07F6633227120671BA87 /* BubbleTagView.bundle */;
+			productReference = 6B3322E7E148B92CFD7B20BF6946482A /* BubbleTagView.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		A60733B37E7EB74666FFF9EC7EFE594F /* Pods-BubbleTagView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A92BFECA1956CF714A019431612DCD90 /* Build configuration list for PBXNativeTarget "Pods-BubbleTagView_Tests" */;
+			buildPhases = (
+				AED2E8D8B34AF20DFB0053C270AAB594 /* Sources */,
+				B9F20EB565D06A64E61B7BC39A26C0B5 /* Frameworks */,
+				9A635FAADCE06F66B7F3D0DE30C4EB89 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD14A8102930B5F8B72EC59C36688DB6 /* PBXTargetDependency */,
+				DB3FCDCBDEC2610161D568B9BB561099 /* PBXTargetDependency */,
+			);
+			name = "Pods-BubbleTagView_Tests";
+			productName = "Pods-BubbleTagView_Tests";
+			productReference = 018F849684C4F73F4C68EE79833F2F19 /* Pods_BubbleTagView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E2EEC691E838B49731CAFFFD35DB7785 /* BubbleTagView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 714467858DE759637AADD5C5870AEAE6 /* Build configuration list for PBXNativeTarget "BubbleTagView" */;
+			buildPhases = (
+				ACC662535E48F891AAB4958AA2CA8D77 /* Sources */,
+				0AC53A25928AE9CE22E5A965270BFE78 /* Frameworks */,
+				D5213B6593C3DAFA402621721B7CAF25 /* Resources */,
+				356F96BD2A913BE9A57AE7DF13144F23 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08FBEC7D61E0398B4421AA7CCB28CC84 /* PBXTargetDependency */,
+				572088EC9672E1611AF822A6A7681CF5 /* PBXTargetDependency */,
+			);
+			name = BubbleTagView;
+			productName = BubbleTagView;
+			productReference = FF6F7888107B603CE620E36EA1180247 /* BubbleTagView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E471C0E8C224B4FEFFC748EE792B93D5 /* Pods-BubbleTagView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F47C7FE564F945E5CC4A4FFC8D0D92C2 /* Build configuration list for PBXNativeTarget "Pods-BubbleTagView_Example" */;
+			buildPhases = (
+				769B9C7B1FEA760DEC59EF0F645A4C81 /* Sources */,
+				2956DA921F50A06FE933FF40DDB206B4 /* Frameworks */,
+				23536BDDFF18804B06939490424D8DA3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFFAD5D55918AB9CDD98E71BE6AC7512 /* PBXTargetDependency */,
+				16C87835CE5EDAD2DB77ABED26346A59 /* PBXTargetDependency */,
+			);
+			name = "Pods-BubbleTagView_Example";
+			productName = "Pods-BubbleTagView_Example";
+			productReference = 5A8AE76113946F90FD157D6B8FFEB5B0 /* Pods_BubbleTagView_Example.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -371,95 +481,151 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 10394F0B5FFBFE9153158102FE8162B9 /* Products */;
+			productRefGroup = C56A4D3133B612EF0A15C45BDF57036E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				99CF6D69E3DDF5DEFBC06869983C717D /* BubbleTagView */,
-				CCAAD3116523EC98EEFE21A56D885F15 /* BubbleTagView-BubbleTagView */,
-				B29E85F1241CABD640B7163BEF43F6C7 /* Pods-BubbleTagView_Example */,
-				2C3DBCEA6B9F78752FDAF2846308E845 /* Pods-BubbleTagView_Tests */,
+				E2EEC691E838B49731CAFFFD35DB7785 /* BubbleTagView */,
+				A0BC4DF899639994EF0CFC7B56D85061 /* BubbleTagView-BubbleTagView */,
+				E471C0E8C224B4FEFFC748EE792B93D5 /* Pods-BubbleTagView_Example */,
+				A60733B37E7EB74666FFF9EC7EFE594F /* Pods-BubbleTagView_Tests */,
+				06C311F8A0AEA3EDFEBF46415A0B33B4 /* UICollectionViewLeftAlignedLayout */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7988AD122F1088EE9DED81F07AB563D3 /* Resources */ = {
+		0EFC0AF1D22A1B46C5A9FA44C119BFE7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12D32EFEEBB13696BB134D0C34AE0E1E /* BubbleTagView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0132C5D9783C7D3BAB76A6D74BA098C /* Resources */ = {
+		D5213B6593C3DAFA402621721B7CAF25 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8434891EC73621820A1C4DD188EA02C /* BubbleTagView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5DFF93EBCB19432FEEA4E4D619663F91 /* Sources */ = {
+		769B9C7B1FEA760DEC59EF0F645A4C81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A53068872178BADABF13C87DECE6D92 /* BubbleTagView-dummy.m in Sources */,
-				E2A1AB1D54A66AF764661C50CAB95F7B /* BubbleTagView.swift in Sources */,
-				20D088D20DD605D2B31D47F07F7C0AD8 /* BubbleTagViewCell.swift in Sources */,
-				B97E1C8CDA159E221360EACFA286932A /* BubbleTagViewCellConfiguration.swift in Sources */,
+				18149B8ACC5B89CD45BD392531A19CB7 /* Pods-BubbleTagView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BFF200897CC1203FD54ED1E91295F48A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				10241E59118761DFF5EB055F2B044E66 /* Pods-BubbleTagView_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E05471BDD1426E22AB0D32FF6FB19E27 /* Sources */ = {
+		950FD8D5E4DDA7B308CA34BBC33BB14F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F90094D319035545E830890EB463709B /* Sources */ = {
+		ACC662535E48F891AAB4958AA2CA8D77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CF3CF41957E94F5E33E64F56DFACD62 /* Pods-BubbleTagView_Example-dummy.m in Sources */,
+				0CB40A8E9051DA7C37970F06379E8ED3 /* BubbleTagView-dummy.m in Sources */,
+				171CF24202E027FFB13360C2EF607602 /* BubbleTagView.swift in Sources */,
+				7D95553A9AA843F34354B7971B669EB2 /* BubbleTagViewCell.swift in Sources */,
+				1E9EA2404E338E9A36E581EAF08B538D /* BubbleTagViewCellConfiguration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED2E8D8B34AF20DFB0053C270AAB594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A623BFFFD4696315C1ED4BB12CD294 /* Pods-BubbleTagView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7799CB02361C0B41EAB72FA698B20A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E62E912CD94423339A22A95F9F3751DD /* UICollectionViewLeftAlignedLayout-dummy.m in Sources */,
+				C7B1E445FB34C20DCDF047FCD8D132FD /* UICollectionViewLeftAlignedLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		467577EAECE5B382C130152733F00D41 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = BubbleTagView;
-			target = 99CF6D69E3DDF5DEFBC06869983C717D /* BubbleTagView */;
-			targetProxy = 2B231A4024F16D045D26022360EE0B3A /* PBXContainerItemProxy */;
-		};
-		BF67D687D964DEB0E98213FA24E53783 /* PBXTargetDependency */ = {
+		08FBEC7D61E0398B4421AA7CCB28CC84 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "BubbleTagView-BubbleTagView";
-			target = CCAAD3116523EC98EEFE21A56D885F15 /* BubbleTagView-BubbleTagView */;
-			targetProxy = 57324DF7108F7F22DF7D9CE3AABDD007 /* PBXContainerItemProxy */;
+			target = A0BC4DF899639994EF0CFC7B56D85061 /* BubbleTagView-BubbleTagView */;
+			targetProxy = 8ABBD69506D8D2B6FB036F6E565287B7 /* PBXContainerItemProxy */;
 		};
-		D77682484FABBCA814EB563CA26B5B4E /* PBXTargetDependency */ = {
+		16C87835CE5EDAD2DB77ABED26346A59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UICollectionViewLeftAlignedLayout;
+			target = 06C311F8A0AEA3EDFEBF46415A0B33B4 /* UICollectionViewLeftAlignedLayout */;
+			targetProxy = 497B37E5A754262B6C80AB68290B85FC /* PBXContainerItemProxy */;
+		};
+		572088EC9672E1611AF822A6A7681CF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UICollectionViewLeftAlignedLayout;
+			target = 06C311F8A0AEA3EDFEBF46415A0B33B4 /* UICollectionViewLeftAlignedLayout */;
+			targetProxy = 9AF811C916A6DCA696DD63DC8768B9C9 /* PBXContainerItemProxy */;
+		};
+		AD14A8102930B5F8B72EC59C36688DB6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BubbleTagView;
-			target = 99CF6D69E3DDF5DEFBC06869983C717D /* BubbleTagView */;
-			targetProxy = 29F2E6717547FAC5BBBE5C431CD8067C /* PBXContainerItemProxy */;
+			target = E2EEC691E838B49731CAFFFD35DB7785 /* BubbleTagView */;
+			targetProxy = E6726BD6565577D005A7E54383D32C74 /* PBXContainerItemProxy */;
+		};
+		BFFAD5D55918AB9CDD98E71BE6AC7512 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BubbleTagView;
+			target = E2EEC691E838B49731CAFFFD35DB7785 /* BubbleTagView */;
+			targetProxy = F336AAC8D6101D40026D9AE584409CEB /* PBXContainerItemProxy */;
+		};
+		DB3FCDCBDEC2610161D568B9BB561099 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UICollectionViewLeftAlignedLayout;
+			target = 06C311F8A0AEA3EDFEBF46415A0B33B4 /* UICollectionViewLeftAlignedLayout */;
+			targetProxy = 3BE943D7F6D3C2E1A09C2F01AD12F72F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		087FD544CF1BC69983EC94D1460A3AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 036493EFFC06327569605F3698026097 /* BubbleTagView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BubbleTagView/BubbleTagView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BubbleTagView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BubbleTagView/BubbleTagView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BubbleTagView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -494,21 +660,9 @@
 			};
 			name = Release;
 		};
-		377D2636409D7DC5C7B7CE92F1245666 /* Debug */ = {
+		135F0D8640A51DA597D3DC9FB23974EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 036493EFFC06327569605F3698026097 /* BubbleTagView.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = BubbleTagView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		43652AF1974553A8B5D726EBEECE76D1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3A092DB20E80A205332D0267ED03D56 /* Pods-BubbleTagView_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -517,17 +671,44 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-BubbleTagView_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/BubbleTagView/BubbleTagView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BubbleTagView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BubbleTagView/BubbleTagView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BubbleTagView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		20FCC0E86400631636AD13A8BA23BE6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADC31DAA84E81DD60F0061B3E4B9F694 /* Pods-BubbleTagView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BubbleTagView_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BubbleTagView_Tests/Pods-BubbleTagView_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-BubbleTagView_Example/Pods-BubbleTagView_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_BubbleTagView_Tests;
+				PRODUCT_NAME = Pods_BubbleTagView_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -576,37 +757,79 @@
 			};
 			name = Debug;
 		};
-		5AD4985B6510C36039466286869F8F63 /* Debug */ = {
+		6BDC813A8083DABC1F4E4D5419606645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 320D7E54FB593C1CDD2E0AAB5356594A /* UICollectionViewLeftAlignedLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UICollectionViewLeftAlignedLayout/UICollectionViewLeftAlignedLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UICollectionViewLeftAlignedLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UICollectionViewLeftAlignedLayout/UICollectionViewLeftAlignedLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UICollectionViewLeftAlignedLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B46961A6F3D68D8457114ABC0EC7ED38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3A092DB20E80A205332D0267ED03D56 /* Pods-BubbleTagView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BubbleTagView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BubbleTagView_Tests/Pods-BubbleTagView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BubbleTagView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB9DEAFCCFFD74B51FCB1554471A28B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 036493EFFC06327569605F3698026097 /* BubbleTagView.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BubbleTagView/BubbleTagView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BubbleTagView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BubbleTagView/BubbleTagView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = BubbleTagView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		7512087236259A7BE6302A37D99B8EDB /* Debug */ = {
+		D946C5CC1C50CB7DF330DDF806144D66 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADC31DAA84E81DD60F0061B3E4B9F694 /* Pods-BubbleTagView_Example.debug.xcconfig */;
+			baseConfigurationReference = 320D7E54FB593C1CDD2E0AAB5356594A /* UICollectionViewLeftAlignedLayout.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -615,48 +838,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-BubbleTagView_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/UICollectionViewLeftAlignedLayout/UICollectionViewLeftAlignedLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UICollectionViewLeftAlignedLayout/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BubbleTagView_Example/Pods-BubbleTagView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_BubbleTagView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8D72C51738C63B69753F339A233BC3D5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F0657A1828983E651EF9A642FC11DC7 /* Pods-BubbleTagView_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-BubbleTagView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BubbleTagView_Example/Pods-BubbleTagView_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/UICollectionViewLeftAlignedLayout/UICollectionViewLeftAlignedLayout.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_BubbleTagView_Example;
+				PRODUCT_NAME = UICollectionViewLeftAlignedLayout;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -665,7 +854,7 @@
 			};
 			name = Release;
 		};
-		D6E09DA884AD89C7463E961B968C749A /* Release */ = {
+		E242C5C4853FA2A04588915160F056DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 29750A3841FBD97CA766074E8C5B5F41 /* Pods-BubbleTagView_Tests.release.xcconfig */;
 			buildSettings = {
@@ -695,9 +884,9 @@
 			};
 			name = Release;
 		};
-		DF90F2D159447A7374DB21F0AEFBA5C1 /* Release */ = {
+		E36C8419A61B5FF2F9A56125D094C817 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 036493EFFC06327569605F3698026097 /* BubbleTagView.xcconfig */;
+			baseConfigurationReference = 9F0657A1828983E651EF9A642FC11DC7 /* Pods-BubbleTagView_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -706,14 +895,17 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BubbleTagView/BubbleTagView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BubbleTagView/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-BubbleTagView_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BubbleTagView/BubbleTagView.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BubbleTagView_Example/Pods-BubbleTagView_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = BubbleTagView;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_BubbleTagView_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -722,7 +914,7 @@
 			};
 			name = Release;
 		};
-		EBA231340E0F5751B8822AFA68599C69 /* Release */ = {
+		F031FAABCD7988D6BBB5AE3346007FEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 036493EFFC06327569605F3698026097 /* BubbleTagView.xcconfig */;
 			buildSettings = {
@@ -737,11 +929,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		008E28F19102A5BFFF889469248D1091 /* Build configuration list for PBXNativeTarget "Pods-BubbleTagView_Tests" */ = {
+		07A9C3029F0F05016BDCF1E320A09BAF /* Build configuration list for PBXNativeTarget "BubbleTagView-BubbleTagView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43652AF1974553A8B5D726EBEECE76D1 /* Debug */,
-				D6E09DA884AD89C7463E961B968C749A /* Release */,
+				BB9DEAFCCFFD74B51FCB1554471A28B3 /* Debug */,
+				F031FAABCD7988D6BBB5AE3346007FEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -755,29 +947,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2FD0BAEA76753FCD5AEBCAE13527EBB4 /* Build configuration list for PBXNativeTarget "BubbleTagView" */ = {
+		57535EFA35684C9CDB72666F508FC4D8 /* Build configuration list for PBXNativeTarget "UICollectionViewLeftAlignedLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5AD4985B6510C36039466286869F8F63 /* Debug */,
-				DF90F2D159447A7374DB21F0AEFBA5C1 /* Release */,
+				6BDC813A8083DABC1F4E4D5419606645 /* Debug */,
+				D946C5CC1C50CB7DF330DDF806144D66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		68ADB9A0302974BC73F6C52279BD1502 /* Build configuration list for PBXNativeTarget "BubbleTagView-BubbleTagView" */ = {
+		714467858DE759637AADD5C5870AEAE6 /* Build configuration list for PBXNativeTarget "BubbleTagView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				377D2636409D7DC5C7B7CE92F1245666 /* Debug */,
-				EBA231340E0F5751B8822AFA68599C69 /* Release */,
+				087FD544CF1BC69983EC94D1460A3AB2 /* Debug */,
+				135F0D8640A51DA597D3DC9FB23974EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DEB2F16A8F699FA192B7FEFFA53B0A20 /* Build configuration list for PBXNativeTarget "Pods-BubbleTagView_Example" */ = {
+		A92BFECA1956CF714A019431612DCD90 /* Build configuration list for PBXNativeTarget "Pods-BubbleTagView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7512087236259A7BE6302A37D99B8EDB /* Debug */,
-				8D72C51738C63B69753F339A233BC3D5 /* Release */,
+				B46961A6F3D68D8457114ABC0EC7ED38 /* Debug */,
+				E242C5C4853FA2A04588915160F056DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F47C7FE564F945E5CC4A4FFC8D0D92C2 /* Build configuration list for PBXNativeTarget "Pods-BubbleTagView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20FCC0E86400631636AD13A8BA23BE6D /* Debug */,
+				E36C8419A61B5FF2F9A56125D094C817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
